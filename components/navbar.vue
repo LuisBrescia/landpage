@@ -1,10 +1,10 @@
 <template>
-    <nav class="flex justify-center p-3 sticky top-0 bg-white mt-5" :class="{ 'shadow': isScrolled }">
+    <nav class="flex justify-center p-3 sticky top-0 bg-white mt-5 z-50" :class="{ 'shadow': isScrolled }">
         <div class="container flex justify-between items-center max-w-7xl">
 
             <div class="flex-1 flex items-center gap-1">
                 <!-- <Icon name="lucide:door-open" size="1.2em"></Icon> -->
-                <img src="~/assets/img/logo.png" alt="Logo" class="logoAtendeAi bg-black"/>
+                <img src="~/assets/img/logo.png" alt="Logo" class="py-2 px-5 logoAtendeAi bg-black shadow rounded-full p-5"/>
             </div>
 
             <div class="hidden md:flex gap-4">
