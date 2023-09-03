@@ -1,30 +1,43 @@
 <template>
-    <main class="container max-w-7xl text-center text-white mx-auto">
-        
-        <div class="grid grid-cols-1 md:grid-cols-2 items-center gap-5">
+    <main class="container max-w-7xl text-center text-gray-300 mx-auto">
 
-            <div class="text-center md:text-start max-w-lg mb-10 mx-auto">
+        <header class="mb-12">
+            <h3 class="text-4xl font-bold mb-3 text-white">Nosso <span class="text-blue-gradient">blog</span></h3>
+            <p class="text-lg max-w-md mx-auto">
+                Acompanhe por aqui tudo sobre eventos, notícias e novidades do mercado de portaria virtual.
+            </p>
+        </header>
 
-                <header class="font-bold text-4xl mb-5 text-black">
-                    <span class="text-white">Ainda não tem o sistema instalado?</span> 
-                    Não se preocupe!
-                </header>
+        <div class="grid md:grid-cols-3 gap-10 mb-12">
 
-                <p class="font-semibold text-xl mb-5">
-                    Contamos com a solução ideal para você, com equipamentos de primeira que garantem o acesso seja via tag, reconhecimento facial, e nosso app.
+
+            <div class="text-start">
+                <img src="~/assets/img/blog1.jpg" class="h-72 w-full rounded-lg mb-4 object-cover" />
+                <h3 class="text-white text-2xl mb-4 font-bold">Qual é o melhor tipo de portaria para meu condomínio?</h3>
+                <p>
+                    A escolha do serviço de portaria é sempre um ponto de atenção para os condomínios. Escolhas erradas podem gerar consequências…
                 </p>
-
-                <button class="btn-escuro">Fale já com nossa equipe</button>
-
             </div>
 
-            <img src="~/assets/img/ainda-nao-tem-sistema-instalado.png" class="mx-auto" />
+            
+            <div class="text-start">
+                <img src="~/assets/img/blog2.jpg" class="h-72 w-full rounded-lg mb-4 object-cover" />
+                <h3 class="text-white text-2xl mb-4 font-bold">Portaria autônoma: Economia inteligente e eficiente</h3>
+                <p>
+                    A substituição dos porteiros pelo serviço de portaria remota tem sido prática comum nos condomínios do Brasil.
+                </p>
+            </div>
+
+            
+            <div class="text-start">
+                <img src="~/assets/img/blog3.jpg" class="h-72 w-full rounded-lg mb-4 object-cover"/>
+                <h3 class="text-white text-2xl mb-4 font-bold">5 dicas para melhorar a segurança do seu condomínio</h3>
+                <p>
+                    A segurança do condomínio e seus moradores é uma preocupação constante de síndicos e gestores. Afinal, em muitos casos, eles…
+                </p>
+            </div>
 
         </div>
 
     </main>
 </template>
-
-<style scoped>
-
-</style>

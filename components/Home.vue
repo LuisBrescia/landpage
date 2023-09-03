@@ -1,12 +1,12 @@
 <template>
     <div class="container max-w-7xl mx-auto py-12 text-gray-900">
-        <h3 class="text-7xl font-semibold text-center mb-12">
-            Tenha <span class="text-blue-gradient">controle</span> total<br>
-            de sua portaria!
+        <h3 class="text-6xl md:text-7xl font-semibold mb-12 max-w-2xl mx-auto md:text-center">
+            Tenha <span class="text-blue-gradient">controle</span> 
+            total de sua portaria!
         </h3>
 
-        <p class="text-center text-lg leading-7 mb-12">
-            Com nosso aplicativo da AtendeAí integrado ao seu sistema de portaria, você poderá<br>
+        <p class="text-lg leading-7 mb-12 max-w-3xl mx-auto md:text-center">
+            Com nosso aplicativo da AtendeAí integrado ao seu sistema de portaria, você poderá
             controlar acessos de sua portaria, de onde estiver e de forma totalmente autônoma.
         </p>
 

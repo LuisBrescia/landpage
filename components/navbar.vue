@@ -4,14 +4,16 @@
 
             <div class="flex-1 flex items-center gap-1">
                 <!-- <Icon name="lucide:door-open" size="1.2em"></Icon> -->
-                <img src="~/assets/img/logo.png" alt="Logo" class="py-2 px-5 logoAtendeAi bg-black shadow rounded-full p-5"/>
+                <header id="nomeMarca" class="text-gray-950">
+                  atende<span class="text-blue-gradient">aí</span>
+                </header>
             </div>
 
-            <div class="hidden md:flex gap-4">
-                <a href="/" class="px-3 py-2 rounded-lg hover:bg-blue-50">Como funciona</a>
-                <a href="/" class="px-3 py-2 rounded-lg hover:bg-blue-50">Benefícios</a>
-                <a href="/" class="px-3 py-2 rounded-lg hover:bg-blue-50">Contato</a>
-                <a href="/" class="px-3 py-2 rounded-lg hover:bg-blue-50">Seja um parceiro</a>
+            <div class="hidden lg:flex gap-4">
+                <a href="/" class="px-3 py-2 rounded-lg hover:bg-gray-100">Como funciona</a>
+                <a href="/" class="px-3 py-2 rounded-lg hover:bg-gray-100">Benefícios</a>
+                <a href="/" class="px-3 py-2 rounded-lg hover:bg-gray-100">Contato</a>
+                <a href="/" class="px-3 py-2 rounded-lg hover:bg-gray-100">Seja um parceiro</a>
             </div>
 
             <div class="flex-1 text-end">

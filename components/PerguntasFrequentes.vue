@@ -1,15 +1,15 @@
 <template>
     <div class="container max-w-7xl mx-auto text-gray-900">
 
-        <h3 class="text-3xl md:text-5xl font-medium mb-4">Perguntas frequentes</h3>
+        <h3 class="text-3xl md:text-4xl font-bold mb-2">Perguntas frequentes</h3>
 
-        <p class="text-lg mb-12 font-light">
-            Se não encontrar o que procura aqui, consulte nosso time ou bot virtual.
+        <p class="text-lg md:text-xl mb-12 font-light max-w-lg">
+            Se não encontrar o que procura aqui, consulte nossa equipe.
         </p>
 
-        <div class="grid grid-cols-1 md:grid-cols-3 md:gap-10">
+        <div class="grid grid-cols-1 md:grid-cols-3 md:gap-12">
             
-            <div class="mb-12">
+            <div class="mx-auto mb-12 max-w-lg text-justify">
                 <header class="mb-4 text-lg font-medium">
                     E se estiver sem internet, irei receber a chamada do interfone ou portaria?
                 </header>
@@ -29,7 +29,7 @@
                 </p>
             </div>
 
-            <div class="mb-12">
+            <div class="mx-auto mb-12 max-w-lg text-justify">
                 <header class="mb-4 text-lg font-medium">
                     Em caso de festa em meu apartamento, posso enviar convites aos meus amigos para entrada no condomínio via WhatsApp?
                 </header>
@@ -39,7 +39,7 @@
                 </p>
             </div>
 
-            <div class="mb-12">
+            <div class="mx-auto mb-12 max-w-lg text-justify">
                 <header class="mb-4 text-lg font-medium">
                     Consigo ver a imagem de quem tocou o interfone mesmo antes de atender?
                 </header>

@@ -39,13 +39,4 @@ form input:focus, form textarea:focus {
     outline: 1px solid #4b5563;
 }
 
-img {
-    filter: hue-rotate(-20deg) contrast(1.4) drop-shadow(0 0 3px #38bdf8);
-    transition: all 0.5s ease;
-}
-
-img:hover {
-    filter: hue-rotate(-20deg) contrast(1.4) drop-shadow(0 0 8px #38bdf8);
-}
-
 </style>
