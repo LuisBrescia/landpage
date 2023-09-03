@@ -1,9 +1,9 @@
 <template>
         <main class="container max-w-7xl mx-auto">
 
-            <div class="grid grid-cols-3 space-x-5">
+            <div class="grid md:grid-cols-3 gap-5">
                 <div class="text-gray-300">
-                    <img src="~/assets/img/logo.png" alt="Logo" />
+                    <img src="~/assets/img/logo.png" alt="Logo" class="logoAtendeAi"/>
                     <span>
                         Soluções tecnológicas para a sua<br>
                         segurança e dia a dia.
@@ -21,10 +21,10 @@
                     <header class="text-blue-gradient font-semibold">Contatos</header>
                     <div class="flex items-center mb-2"><Icon name="bi-whatsapp"></Icon>&nbsp; (31) 9 7115-3669</div>
                     <div class="flex items-center mb-2"><Icon name="bi-envelope"></Icon>&nbsp; comercial@atendeai.com</div>
-                    <div class="flex gap-2 mt-12 justify-end">
-                        <button class="py-1 px-2 border rounded-sm"><Icon name="bi-facebook"></Icon></button>
-                        <button class="py-1 px-2 border rounded-sm"><Icon name="bi-instagram"></Icon></button>
-                        <button class="py-1 px-2 border rounded-sm"><Icon name="bi-linkedin"></Icon></button>
+                    <div class="flex gap-2 mt-12 justify-end socialMedia">
+                        <button class="hover:text-sky-400 hover:border-sky-400 py-1 px-2 border rounded-sm"><Icon name="bi-facebook"></Icon></button>
+                        <button class="hover:text-sky-400 hover:border-sky-400 py-1 px-2 border rounded-sm"><Icon name="bi-instagram"></Icon></button>
+                        <button class="hover:text-sky-400 hover:border-sky-400 py-1 px-2 border rounded-sm"><Icon name="bi-linkedin"></Icon></button>
                     </div>
                 </div>
             </div>
@@ -50,7 +50,7 @@
 
 </script>
 
-<style lang="postcss" scoped>
+<style lang="css" scoped>
 
 header, img {
     margin-bottom: 1.2em;
@@ -64,9 +64,8 @@ header, img {
 }
 
 #six:hover {
-    transform: scale(1.1);
-    color: rgb(0, 255, 132);
-    letter-spacing: 0.15em;
+    transform: scale(1.1); 
+    color: #02f783;
 }
 
 </style>

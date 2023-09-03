@@ -13,3 +13,15 @@
         </div>
     </main>
 </template>
+
+<style scoped>
+
+img {
+    transition: all 0.5s ease;
+}
+
+img:hover {
+    filter: drop-shadow(0 0 3px #fff);
+}
+
+</style>
