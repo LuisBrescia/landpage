@@ -29,16 +29,16 @@
                 </div>
             </div>
 
-            <hr class="border-gray-600 my-3">
+            <div id="customHr" class="bg-gradient-to-r from-gray-950 via-gray-600 to-gray-950 my-3 from-45% to-95%"></div>
 
-            <ul class="text-gray-600 flex justify-between">
-                <li>
+            <ul class="flex justify-between">
+                <li class="text-dark-gradient">
                     Atende Aí &copy; 2023 
                     &#x2022; Todos os direitos reservados 
                     &#x2022; CNPJ - 45.332.165/0001-07 
                     &#x2022; Razão social -Atendeai Desenvolvimento em Sistemas LTDA 
                 </li>
-                <li class="font-bold" id="six">
+                <li class="font-bold text-gray-300" id="six">
                     SIX
                 </li>
             </ul>
@@ -66,6 +66,21 @@ header, img {
 #six:hover {
     transform: scale(1.1); 
     color: #02f783;
+}
+
+#customHr {
+    height: 1px;
+    background-size: 200%;
+    animation: background-pan 3s linear infinite;
+}
+
+@keyframes background-pan {
+    from {
+        background-position: 0% center;
+    }
+    to {
+        background-position: -200% center;
+    }
 }
 
 </style>

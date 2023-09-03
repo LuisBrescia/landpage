@@ -5,6 +5,10 @@
     <Home />
   </section>
 
+  <section class="bg-blue-gradient py-12 px-4">
+    <SistemaInstalado />
+  </section>
+
   <section class="bg-white py-12 px-4">
     <PerguntasFrequentes />
   </section> 
@@ -17,7 +21,7 @@
     <PreFooter />
   </section>
 
-  <section class="bg-black pt-16 pb-4 px-4">
+  <section class="bg-gray-950 pt-16 pb-4 px-4">
     <Footer />
   </section>
 

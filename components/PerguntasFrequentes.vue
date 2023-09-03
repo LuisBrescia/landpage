@@ -1,13 +1,13 @@
 <template>
-    <div class="container max-w-7xl mx-auto text-black">
+    <div class="container max-w-7xl mx-auto text-gray-900">
 
-        <h3 class="text-5xl font-medium mb-4">Perguntas frequentes</h3>
+        <h3 class="text-3xl md:text-5xl font-medium mb-4">Perguntas frequentes</h3>
 
         <p class="text-lg mb-12 font-light">
             Se não encontrar o que procura aqui, consulte nosso time ou bot virtual.
         </p>
 
-        <div class="grid grid-cols-1 md:grid-cols-3 gap-10">
+        <div class="grid grid-cols-1 md:grid-cols-3 md:gap-10">
             
             <div class="mb-12">
                 <header class="mb-4 text-lg font-medium">

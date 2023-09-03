@@ -1,5 +1,5 @@
 <template>
-    <div class="container max-w-7xl mx-auto">
+    <div class="container max-w-7xl mx-auto py-12 text-gray-900">
         <h3 class="text-7xl font-semibold text-center mb-12">
             Tenha <span class="text-blue-gradient">controle</span> total<br>
             de sua portaria!

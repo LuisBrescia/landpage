@@ -17,11 +17,12 @@
 <style scoped>
 
 img {
+    filter: drop-shadow(0 0 3px #fff);
     transition: all 0.5s ease;
 }
 
 img:hover {
-    filter: drop-shadow(0 0 3px #fff);
+    filter: drop-shadow(0 0 8px #fff);
 }
 
 </style>
