@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+    box-sizing: border-box;
+    margin: none;
+    padding: none;
+}
+
+.btn-primario {
+    @apply bg-gradient-to-r from-blue-500 to-blue-600 hover:bg-blue-500 text-white font-semibold py-2 px-5 rounded-full;
+}
+
+.btn-escuro {
+    @apply bg-gray-900 hover:bg-gray-800 text-white font-semibold py-2 px-5 rounded-full;
+}
+
+.btn-claro {
+    @apply bg-white border font-medium border-gray-200 hover:border-gray-300 text-gray-700 py-2 px-5 rounded-full;
+}
+
+.text-blue-gradient {
+    @apply bg-gradient-to-r from-blue-500 to-blue-600;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.bg-blue-gradient {
+    @apply bg-gradient-to-r from-blue-500 to-blue-600;
+}
