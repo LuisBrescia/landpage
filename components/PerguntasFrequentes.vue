@@ -10,7 +10,7 @@
         <div class="mx-auto text-justify max-w-6xl">
             <!-- Pergunta 1 -->
             <div class="mb-4">
-                <header class="shadow-sm border p-3 rounded-lg text-lg font-medium cursor-pointer flex justify-between items-center"
+                <header class="shadow-sm bg-blue-gradient text-white p-3 rounded-lg text-lg font-medium cursor-pointer flex justify-between items-center"
                     @click="toggleAccordion(1)">
                     <span class="pe-5">E se estiver sem internet, irei receber a chamada do interfone ou portaria?</span>
                     <Icon name="material-symbols:keyboard-arrow-down-rounded" size="1.8em" class="accordion-icon"
@@ -29,7 +29,7 @@
 
             <!-- Pergunta 2 -->
             <div class="mb-4">
-                <header class="shadow-sm border p-3 rounded-lg text-lg font-medium cursor-pointer flex justify-between items-center"
+                <header class="shadow-sm bg-blue-gradient text-white p-3 rounded-lg text-lg font-medium cursor-pointer flex justify-between items-center"
                     @click="toggleAccordion(2)">
                     <span class="pe-5">
                         Posso fazer ligações entre moradores do condomínio?
@@ -48,7 +48,7 @@
 
             <!-- Pergunta 3 -->
             <div class="mb-4">
-                <header class="shadow-sm border p-3 rounded-lg text-lg font-medium cursor-pointer flex justify-between items-center"
+                <header class="shadow-sm bg-blue-gradient text-white p-3 rounded-lg text-lg font-medium cursor-pointer flex justify-between items-center"
                     @click="toggleAccordion(3)">
                     <span class="pe-5">
                     Consigo ver a imagem de quem tocou o interfone mesmo antes de atender ?
@@ -69,7 +69,7 @@
 
             <!-- Pergunta 4 -->
             <div>
-                <header class="shadow-sm border p-3 rounded-lg text-lg font-medium cursor-pointer flex justify-between items-center"
+                <header class="shadow-sm bg-blue-gradient text-white p-3 rounded-lg text-lg font-medium cursor-pointer flex justify-between items-center"
                     @click="toggleAccordion(4)">
                     <span class="pe-5">
                         Em caso de festa em meu apartamento, posso enviar convites via WhatsApp para entrada no condomínio?

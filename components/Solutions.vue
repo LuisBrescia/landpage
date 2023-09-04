@@ -19,9 +19,5 @@
             </div>
 
         </div>
-
-        <div class="text-center mb-12">
-            <button class="btn-primario">Saiba mais</button>
-        </div>
     </main>
 </template>
