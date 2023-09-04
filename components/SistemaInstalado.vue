@@ -10,7 +10,7 @@
                     Não se preocupe!
                 </header>
 
-                <p class="font-semibold text-xl mb-5">
+                <p class="font-semibold text-xl mb-12">
                     Contamos com a solução ideal para você, com equipamentos de primeira que garantem o acesso seja via tag, reconhecimento facial, e nosso app.
                 </p>
 
