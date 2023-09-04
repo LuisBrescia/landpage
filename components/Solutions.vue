@@ -4,7 +4,7 @@
             Conheça nossas <span class="text-blue-gradient">soluções</span>
         </header>
 
-        <div class="mb-12 flex justify-center gap-10">
+        <div class="mb-12 flex justify-center gap-10 flex-col md:flex-row items-center">
 
             <div class="max-w-lg mb-4">
                 <img src="~/assets/img/solution1.jpg" class="h-72 w-full rounded-lg mb-4 object-cover" />

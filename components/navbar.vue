@@ -17,7 +17,7 @@
             </div>
 
             <div class="flex-1 text-end">
-                <button class="btn-primario">
+                <button class="btn-primario text-sm md:text-base">
                     Área do parceiro
                 </button>
             </div>
