@@ -43,10 +43,16 @@
 
 .bg-blue-gradient {
     @apply bg-gradient-to-r from-blue-500 via-sky-400 to-blue-500;
-    background: linear-gradient();
     background-size: 200%;
     animation: background-pan 3s linear infinite;
 }
+
+.bg-blue-gradient-accordion {
+    @apply bg-gradient-to-r from-blue-500 via-sky-400 to-blue-500 hover:from-blue-600 hover:via-sky-500 hover:to-blue-600;
+    background-size: 200%;
+    animation: background-pan 3s linear infinite;
+}
+
 @keyframes background-pan {
     from {
         background-position: 0% center;
