@@ -5,6 +5,14 @@
     <Home />
   </section>
 
+  <section class="bg-blue-gradient py-12 px-4">
+    <Objetivo />
+  </section>
+
+  <section class="bg-white py-12 px-4">
+    <Solutions />
+  </section> 
+
   <section class="bg-gray-950 py-12 px-4">
     <NossoBlog />
   </section>

@@ -1,15 +1,15 @@
 <template>
-    <div class="container max-w-7xl mx-auto text-gray-900">
+    <main class="container mx-auto text-gray-900">
 
-        <h3 class="text-3xl md:text-4xl font-bold mb-2">Perguntas frequentes</h3>
-
-        <p class="text-lg md:text-xl mb-12 font-light max-w-lg">
-            Se não encontrar o que procura aqui, consulte nossa equipe.
-        </p>
+        <header class="text-center mb-12 max-w-lg mx-auto">
+            <Icon name="material-symbols:help-center-rounded" class="mb-2 rounded-md text-5xl"></Icon>
+            <h3 class="text-4xl font-extrabold mb-2"><span class="text-blue-gradient">Perguntas</span> frequentes</h3>
+            <span class="text-lg mb-3">Se não encontrar o que procura aqui, fale conosco.</span>
+        </header>
 
         <div class="grid grid-cols-1 md:grid-cols-3 md:gap-12">
             
-            <div class="mx-auto mb-12 max-w-lg text-justify">
+            <div class="mx-auto mb-12 md:mb-0 max-w-lg text-justify">
                 <header class="mb-4 text-lg font-medium">
                     E se estiver sem internet, irei receber a chamada do interfone ou portaria?
                 </header>
@@ -29,7 +29,7 @@
                 </p>
             </div>
 
-            <div class="mx-auto mb-12 max-w-lg text-justify">
+            <div class="mx-auto mb-12 md:mb-0 max-w-lg text-justify">
                 <header class="mb-4 text-lg font-medium">
                     Em caso de festa em meu apartamento, posso enviar convites aos meus amigos para entrada no condomínio via WhatsApp?
                 </header>
@@ -39,7 +39,7 @@
                 </p>
             </div>
 
-            <div class="mx-auto mb-12 max-w-lg text-justify">
+            <div class="mx-auto md:mb-0 max-w-lg text-justify">
                 <header class="mb-4 text-lg font-medium">
                     Consigo ver a imagem de quem tocou o interfone mesmo antes de atender?
                 </header>
@@ -49,5 +49,5 @@
                 </p>
             </div>
         </div>
-    </div>
+    </main>
 </template>

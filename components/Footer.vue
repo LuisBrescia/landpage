@@ -1,6 +1,5 @@
 <template>
-        <main class="container max-w-7xl mx-auto">
-
+        <main class="container mx-auto">
             <div class="grid md:grid-cols-3 gap-5">
                 <div class="text-gray-300">
                     <img src="~/assets/img/logo.png" alt="Logo" class="logoAtendeAi"/>

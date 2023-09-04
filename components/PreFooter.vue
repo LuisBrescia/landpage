@@ -1,5 +1,5 @@
 <template>
-    <main class="container max-w-7xl text-center text-white mx-auto">
+    <main class="container text-center text-white mx-auto">
         <header class="text-3xl font-bold mb-5">
             Baixe agora o nosso aplicativo disponível!
         </header>

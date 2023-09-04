@@ -1,7 +1,7 @@
 <template>
-    <main class="container max-w-7xl text-center text-white mx-auto">
+    <main class="container text-center text-white mx-auto">
         
-        <div class="grid grid-cols-1 md:grid-cols-2 items-center gap-5">
+        <div class="grid grid-cols-1 md:grid-cols-2 items-center gap-10">
 
             <div class="text-center md:text-start max-w-lg mb-10 mx-auto">
 
