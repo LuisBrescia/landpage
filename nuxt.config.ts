@@ -10,8 +10,9 @@ export default defineNuxtConfig({
   },
   app: {
     head: {
-      title: 'Aprendendo Vue.js',
-      meta: [{ charset: 'utf-8' }]
+      title: 'Landpage - Nuxt3',
+      meta: [{ charset: 'utf-8' }],
+      link: [{ rel: 'icon', type: 'image/png', href: '/favicon-atendeai.png' }],
     }
   },
   modules: ['nuxt-icon'],
