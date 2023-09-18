@@ -157,22 +157,22 @@
       <form class="p-5 max-w-2xl mx-auto flex flex-col gap-8">
 
         <div>
-          <label class="block text-sm text-gray-800 mb-3">Nome</label>
+          <label class="font-medium block text-sm mb-3">Nome</label>
           <input type="text" class="bg-gray-50 border rounded-md p-2 w-full focus:border-blue-500 focus:outline-none shadow-sm" />
         </div>
 
         <div>
-          <label class="block text-sm text-gray-800 mb-3">E-mail</label>
+          <label class="font-medium block text-sm mb-3">E-mail</label>
           <input type="email" class="bg-gray-50 border rounded-md p-2 w-full focus:border-blue-500 focus:outline-none shadow-sm" />
         </div>
 
         <div>
-          <label class="block text-sm text-gray-800 mb-3">Telefone</label>
+          <label class="font-medium block text-sm mb-3">Telefone</label>
           <input type="tel" class="bg-gray-50 border rounded-md p-2 w-full focus:border-blue-500 focus:outline-none shadow-sm" />
         </div>
 
         <div>
-          <label class="block text-sm text-gray-800 mb-3">Mensagem</label>
+          <label class="font-medium block text-sm mb-3">Mensagem</label>
           <textarea class="max-h-32 bg-gray-50 border rounded-md p-2 w-full focus:border-blue-500 focus:outline-none shadow-sm"></textarea>
         </div>
 
