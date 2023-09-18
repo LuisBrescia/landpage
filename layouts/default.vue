@@ -20,9 +20,11 @@
       </div>
 
       <div class="hidden lg:inline flex-1 text-end">
-        <ButtonPrimary>
-          Área do parceiro
-        </ButtonPrimary>
+        <NuxtLink to="/register">
+          <BtnPrimary>
+            Área do parceiro
+          </BtnPrimary>
+        </NuxtLink>
       </div>
 
       <div class="inline lg:hidden">

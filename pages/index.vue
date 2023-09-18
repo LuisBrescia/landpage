@@ -14,16 +14,19 @@
       </p>
 
       <div class="flex justify-center gap-5">
-        <ButtonDark>Teste Grátis</ButtonDark>
-        <ButtonLight>
+        <NuxtLink to="/register">
+          <BtnDark>Teste Grátis</BtnDark>
+        </NuxtLink>
+        <BtnLight>
           <Icon name="ic:round-play-arrow" size="1.2em" class="text-sky-500 me-1"></Icon>
           Vídeo explicativo
-        </ButtonLight>
+        </BtnLight>
       </div>
 
     </main>
   </section>
 
+  <!-- * Objetivo -->
   <section class="bg-blue-gradient py-12 px-4">
     <main class="container mx-auto text-center max-w-2xl">
 
@@ -35,7 +38,7 @@
         que garantam a segurança das pessoas e
         <span class="font-black">simplifiquem suas vidas.</span>
       </h3>
-      <ButtonDark>Saiba mais</ButtonDark>
+      <BtnDark>Saiba mais</BtnDark>
     </main>
   </section>
 
@@ -112,26 +115,27 @@
 
   <section class="bg-blue-gradient py-12 px-4">
     <main class="container text-center text-white mx-auto">
-        
-        <div class="grid grid-cols-1 md:grid-cols-2 items-center gap-10">
 
-            <div class="text-center md:text-start max-w-lg mb-10 mx-auto">
+      <div class="grid grid-cols-1 md:grid-cols-2 items-center gap-10">
 
-                <header class="font-bold text-4xl mb-5 text-gray-900">
-                    <span class="text-white">Ainda não tem o sistema instalado?</span> 
-                    Não se preocupe!
-                </header>
+        <div class="text-center md:text-start max-w-lg mb-10 mx-auto">
 
-                <p class="font-semibold text-xl mb-12">
-                    Contamos com a solução ideal para você, com equipamentos de primeira que garantem o acesso seja via tag, reconhecimento facial, e nosso app.
-                </p>
+          <header class="font-bold text-4xl mb-5 text-gray-900">
+            <span class="text-white">Ainda não tem o sistema instalado?</span>
+            Não se preocupe!
+          </header>
 
-                <ButtonDark>Fale já com nossa equipe</ButtonDark>
-            </div>
+          <p class="font-semibold text-xl mb-12">
+            Contamos com a solução ideal para você, com equipamentos de primeira que garantem o acesso seja via tag,
+            reconhecimento facial, e nosso app.
+          </p>
 
-            <img class="lojaMobile mx-auto" src="~/assets/img/ainda-nao-tem-sistema-instalado.png"/>
-
+          <BtnDark>Fale já com nossa equipe</BtnDark>
         </div>
+
+        <img class="lojaMobile mx-auto" src="~/assets/img/ainda-nao-tem-sistema-instalado.png" />
+
+      </div>
 
     </main>
   </section>
@@ -140,36 +144,47 @@
     <PerguntasFrequentes />
   </section>
 
+  <!-- * Contato -->
   <section class="bg-white py-12 px-4">
     <main class="container mx-auto text-gray-900">
 
       <header class="text-center mb-4 max-w-lg mx-auto">
         <Icon name="ph:paper-plane-tilt-fill" class="mb-2 rounded-md text-4xl"></Icon>
         <h3 class="text-4xl font-extrabold mb-2">Entre em <span class="text-blue-gradient">contato</span></h3>
-        <span class="text-lg mb-3">Se interessou por algo? Nossa equipe te dará retorno no prazo de 1 hora.</span>
+        <span class="text-lg mb-3">Nossa equipe entrará em contato no prazo de 6 horas.</span>
       </header>
 
-      <form class="p-5 max-w-2xl mx-auto">
-        <h3 class="text-sm font-semibold mb-1 ms-1">Nome</h3>
-        <input type="text" class="w-full p-2 mb-3 rounded-md shadow-sm border" />
+      <form class="p-5 max-w-2xl mx-auto flex flex-col gap-8">
 
-        <h3 class="text-sm font-semibold mb-1 ms-1">E-mail</h3>
-        <input type="email" class="w-full p-2 mb-3 rounded-md shadow-sm border" />
+        <div>
+          <label class="block text-sm text-gray-800 mb-3">Nome</label>
+          <input type="text" class="bg-gray-50 border rounded-md p-2 w-full focus:border-blue-500 focus:outline-none shadow-sm" />
+        </div>
 
-        <h3 class="text-sm font-semibold mb-1 ms-1">Telefone</h3>
-        <input type="tel" class="w-full p-2 mb-3 rounded-md shadow-sm border" />
+        <div>
+          <label class="block text-sm text-gray-800 mb-3">E-mail</label>
+          <input type="email" class="bg-gray-50 border rounded-md p-2 w-full focus:border-blue-500 focus:outline-none shadow-sm" />
+        </div>
 
-        <h3 class="text-sm font-semibold mb-1 ms-1">Mensagem</h3>
-        <textarea class="max-h-32 w-full p-2 mb-5 rounded-md shadow-sm border"></textarea>
+        <div>
+          <label class="block text-sm text-gray-800 mb-3">Telefone</label>
+          <input type="tel" class="bg-gray-50 border rounded-md p-2 w-full focus:border-blue-500 focus:outline-none shadow-sm" />
+        </div>
+
+        <div>
+          <label class="block text-sm text-gray-800 mb-3">Mensagem</label>
+          <textarea class="max-h-32 bg-gray-50 border rounded-md p-2 w-full focus:border-blue-500 focus:outline-none shadow-sm"></textarea>
+        </div>
 
         <div class="text-center">
-          <PrimaryButton>Enviar mensagem</PrimaryButton>
+          <BtnPrimary class="py-3 w-full">Enviar mensagem</BtnPrimary>
         </div>
       </form>
 
     </main>
   </section>
 
+  <!-- * Baixar Aplicativo -->
   <section class="bg-blue-gradient py-12 px-4">
     <main class="container text-center text-white mx-auto">
 
@@ -185,7 +200,9 @@
       <div class="flex justify-center gap-4">
         <img class="lojaMobile" src="~/assets/img/google-play.png" alt="Google Play" />
         <img class="lojaMobile" src="~/assets/img/app-store.png" alt="Google Play" />
-    </div>
+      </div>
 
-  </main>
-</section></template>
+    </main>
+  </section>
+
+</template>

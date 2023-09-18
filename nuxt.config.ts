@@ -18,7 +18,7 @@ export default defineNuxtConfig({
   modules: ['nuxt-icon'],
   devtools: { enabled: false },
   components: [
-    { path: '~/components/button', prefix: 'Button'},
+    { path: '~/components/buttons', pathPrefix: false},
     '~/components'
   ]
 })
