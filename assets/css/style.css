@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -8,9 +10,14 @@
     padding: none;
 }
 
+
+#nomeMarca {
+  font-family: 'Poppins', sans-serif;
+  /* font-size: 1.4rem; */
+}
+
 #chatBot {
-    @apply bg-white border font-medium border-gray-200 hover:border-gray-300 text-gray-900 hover:text-gray-800;
-    transition: all 0.2s ease-in-out;
+    transition: all 0.3s ease;
 }
 
 #chatBot:hover {
@@ -62,4 +69,36 @@
 
 .logoAtendeAi {
     filter: saturate(150%) brightness(125%);
+}
+
+#six {
+    cursor: pointer;
+    transition: all 0.5s ease;
+    font-family:  'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    letter-spacing: 0.1em;
+}
+
+#six:hover {
+    transform: scale(1.1); 
+    color: #02f783;
+}
+
+#customHr {
+    height: 1px;
+    background-size: 200%;
+    animation: background-pan 3s linear infinite;
+}
+
+.lojaMobile {
+    filter: drop-shadow(0 0 3px #fff);
+    transition: all 0.5s ease;
+}
+
+.lojaMobile:hover {
+    filter: drop-shadow(0 0 8px #fff);
+}
+
+form input:focus,
+form textarea:focus {
+    outline: 1px solid #4b5563;
 }

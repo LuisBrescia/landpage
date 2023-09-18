@@ -1,7 +1,7 @@
 import { defineNuxtConfig } from 'nuxt/config'
 
 export default defineNuxtConfig({
-  css: ['~/assets/css/main.css'],
+  css: ['~/assets/css/style.css'],
   postcss: {
     plugins: {
       tailwindcss: {},
