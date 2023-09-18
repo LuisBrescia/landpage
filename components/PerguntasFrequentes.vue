@@ -13,7 +13,7 @@
                 <header
                     class="shadow-sm bg-blue-gradient-accordion text-white p-3 rounded-lg text-lg font-medium cursor-pointer flex justify-between items-center"
                     @click="toggleAccordion(1)">
-                    <span class="pe-5 text-sm sm:text-base flex-1">E se estiver sem internet, irei receber a chamada do
+                    <span class="pe-5 text-base flex-1">E se estiver sem internet, irei receber a chamada do
                         interfone ou portaria?</span>
                     <Icon name="material-symbols:keyboard-arrow-down-rounded" size="1.8em" class="accordion-icon w-12"
                         :class="{ 'rotate-180': activeAccordion === 1 }" :data-expanded="activeAccordion === 1" />
@@ -32,7 +32,7 @@
                 <header
                     class="shadow-sm bg-blue-gradient-accordion text-white p-3 rounded-lg text-lg font-medium cursor-pointer flex justify-between items-center"
                     @click="toggleAccordion(2)">
-                    <span class="pe-5 text-sm sm:text-base flex-1">
+                    <span class="pe-5 text-base flex-1">
                         Posso fazer ligações entre moradores do condomínio?
                     </span>
                     <Icon name="material-symbols:keyboard-arrow-down-rounded" size="1.8em" class="accordion-icon w-12"
@@ -50,7 +50,7 @@
                 <header
                     class="shadow-sm bg-blue-gradient-accordion text-white p-3 rounded-lg text-lg font-medium cursor-pointer flex justify-between items-center"
                     @click="toggleAccordion(3)">
-                    <span class="pe-5 text-sm sm:text-base flex-1">
+                    <span class="pe-5 text-base flex-1">
                         Consigo ver a imagem de quem tocou o interfone mesmo antes de atender ?
                     </span>
                     <Icon name="material-symbols:keyboard-arrow-down-rounded" size="1.8em" class="accordion-icon w-12"
@@ -70,7 +70,7 @@
                 <header
                     class="shadow-sm bg-blue-gradient-accordion text-white p-3 rounded-lg text-lg font-medium cursor-pointer flex justify-between items-center"
                     @click="toggleAccordion(4)">
-                    <span class="pe-5 text-sm sm:text-base flex-1">
+                    <span class="pe-5 text-base flex-1">
                         Em caso de festa em meu apartamento, posso enviar convites via WhatsApp para entrada no condomínio?
                     </span>
                     <Icon name="material-symbols:keyboard-arrow-down-rounded" size="1.8em" class="accordion-icon w-12"
@@ -110,7 +110,6 @@ export default {
 </script>
 
 <style scoped>
-
 .accordion-item {
     overflow: hidden;
     transition: all .5s ease;

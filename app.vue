@@ -50,16 +50,14 @@
 
 #nomeMarca {
   font-family: 'Poppins', sans-serif;
-  font-size: 1.8rem;
-  font-weight: 600;
+  /* font-size: 1.4rem; */
 }
 
-@media screen and (min-width: 768px) {
+/* @media screen and (min-width: 768px) {
   #nomeMarca {
-    font-size: 2.05rem;
+    font-size: 1.4rem;
   }
-
-}
+} */
 </style>
 
 <script setup>
