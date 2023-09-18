@@ -8,21 +8,6 @@
     padding: none;
 }
 
-.btn-primario {
-    @apply shadow bg-gradient-to-r from-blue-500 via-sky-400 to-blue-500 hover:from-blue-600 hover:via-sky-500 hover:to-blue-600  font-semibold py-2 px-5 rounded-full outline-sky-400;
-    color: white;
-    background-size: 200%;
-    animation: background-pan 3s linear infinite;
-}
-
-.btn-escuro {
-    @apply bg-gray-900 hover:bg-gray-800 text-white font-semibold py-2 px-5 rounded-full;
-}
-
-.btn-claro {
-    @apply bg-white border font-medium border-gray-200 hover:border-gray-300 text-gray-900 py-2 px-5 rounded-full;
-}
-
 #chatBot {
     @apply bg-white border font-medium border-gray-200 hover:border-gray-300 text-gray-900 hover:text-gray-800;
     transition: all 0.2s ease-in-out;

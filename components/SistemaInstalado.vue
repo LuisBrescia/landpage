@@ -14,8 +14,7 @@
                     Contamos com a solução ideal para você, com equipamentos de primeira que garantem o acesso seja via tag, reconhecimento facial, e nosso app.
                 </p>
 
-                <button class="btn-escuro">Fale já com nossa equipe</button>
-
+                <DarkButton>Fale já com nossa equipe</DarkButton>
             </div>
 
             <img src="~/assets/img/ainda-nao-tem-sistema-instalado.png" class="mx-auto" />

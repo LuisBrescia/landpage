@@ -1,48 +1,39 @@
 <template>
-  <navbar />
+  <NuxtLayout>
 
-  <section class="py-12 px-4">
-    <Home />
-  </section>
+    <section class="py-6 md:py-12 px-4 ">
+      <Home />
+    </section>
 
-  <section class="bg-blue-gradient py-12 px-4">
-    <Objetivo />
-  </section>
+    <section class="bg-blue-gradient py-12 px-4">
+      <Objetivo />
+    </section>
 
-  <section class="bg-white py-12 px-4">
-    <Solutions />
-  </section>
+    <section class="bg-white py-12 px-4">
+      <Solutions />
+    </section>
 
-  <section class="bg-gray-950 py-12 px-4">
-    <NossoBlog />
-  </section>
+    <section class="bg-gray-950 py-12 px-4">
+      <NossoBlog />
+    </section>
 
-  <section class="bg-blue-gradient py-12 px-4">
-    <SistemaInstalado />
-  </section>
+    <section class="bg-blue-gradient py-12 px-4">
+      <SistemaInstalado />
+    </section>
 
-  <section class="bg-white py-12 px-4">
-    <PerguntasFrequentes />
-  </section>
+    <section class="bg-white py-12 px-4">
+      <PerguntasFrequentes />
+    </section>
 
-  <section class="bg-white py-12 px-4">
-    <Formulario />
-  </section>
+    <section class="bg-white py-12 px-4">
+      <Formulario />
+    </section>
 
-  <section class="bg-blue-gradient py-12 px-4">
-    <PreFooter />
-  </section>
-
-  <section class="bg-gray-950 pt-16 pb-4 px-4">
-    <Footer />
-  </section>
-
-  <div class="fixed bottom-5 container flex justify-end right-5">
-    <button id="chatBot" class="bg-white shadow-lg border rounded-full p-3">
+    <button id="chatBot" class="fixed bottom-5 right-5 bg-white shadow-lg border rounded-full p-3">
       <Icon name="fluent:chat-20-filled" size="3rem" />
     </button>
-  </div>
 
+  </NuxtLayout>
 </template>
 
 <style>

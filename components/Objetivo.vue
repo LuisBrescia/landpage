@@ -11,8 +11,7 @@
             que garantam a segurança das pessoas e 
             <span class="font-black">simplifiquem suas vidas.</span>
         </h3>
-
-        <button class="btn-escuro">Saiba mais</button>
+        <DarkButton>Saiba mais</DarkButton>
     </header>
 
 

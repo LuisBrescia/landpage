@@ -30,14 +30,14 @@
 
             <div id="customHr" class="bg-gradient-to-r from-gray-950 via-gray-600 to-gray-950 my-3 from-45% to-95%"></div>
 
-            <ul class="flex flex-col md:flex-row justify-between py-3 md:pt-0">
+            <ul class="flex flex-col lg:flex-row justify-between py-3 md:pt-0">
                 <li class="text-sm text-gray-600 text-center">
                     Atende Aí &copy; 2023 
                     &#x2022; Todos os direitos reservados 
                     &#x2022; CNPJ - 45.332.165/0001-07 
                     &#x2022; Razão social -Atendeai Desenvolvimento em Sistemas LTDA 
                 </li>
-                <li class="font-bold text-gray-300 text-center mt-3 md:mt-0" id="six">
+                <li class="font-bold text-gray-300 text-center mt-3 lg:mt-0" id="six">
                     SIX
                 </li>
             </ul>

@@ -11,11 +11,11 @@
         </p>
 
         <div class="flex justify-center gap-5">
-            <button class="btn-escuro">Teste Grátis</button>
-            <button class="btn-claro flex items-center">
+            <DarkButton>Teste Grátis</DarkButton>
+            <LightButton>
                 <Icon name="ic:round-play-arrow" size="1.2em" class="text-sky-500 me-1"></Icon>
                 Vídeo explicativo
-            </button>
+            </LightButton>
         </div>
     </div>
 </template>

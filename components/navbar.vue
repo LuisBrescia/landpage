@@ -21,13 +21,13 @@
     
 
       <div class="hidden lg:inline flex-1 text-end">
-        <button class="btn-primario text-sm md:text-base">
+        <PrimaryButton>
           Área do parceiro
-        </button>
+        </PrimaryButton>
       </div>
 
       <div class="inline lg:hidden">
-        <button @click="exibeMenu()">
+        <button @click="exibeMenu(this)">
           <Icon name="majesticons:menu" size="3em" />
           <!-- <Icon name="majesticons:close" size="3em" /> -->
         </button>
