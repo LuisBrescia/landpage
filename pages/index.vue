@@ -14,11 +14,11 @@
       </p>
 
       <div class="flex justify-center gap-5">
-        <DarkButton>Teste Grátis</DarkButton>
-        <LightButton>
+        <ButtonDark>Teste Grátis</ButtonDark>
+        <ButtonLight>
           <Icon name="ic:round-play-arrow" size="1.2em" class="text-sky-500 me-1"></Icon>
           Vídeo explicativo
-        </LightButton>
+        </ButtonLight>
       </div>
 
     </main>
@@ -35,7 +35,7 @@
         que garantam a segurança das pessoas e
         <span class="font-black">simplifiquem suas vidas.</span>
       </h3>
-      <DarkButton>Saiba mais</DarkButton>
+      <ButtonDark>Saiba mais</ButtonDark>
     </main>
   </section>
 
@@ -126,7 +126,7 @@
                     Contamos com a solução ideal para você, com equipamentos de primeira que garantem o acesso seja via tag, reconhecimento facial, e nosso app.
                 </p>
 
-                <DarkButton>Fale já com nossa equipe</DarkButton>
+                <ButtonDark>Fale já com nossa equipe</ButtonDark>
             </div>
 
             <img class="lojaMobile mx-auto" src="~/assets/img/ainda-nao-tem-sistema-instalado.png"/>

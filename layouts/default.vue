@@ -20,9 +20,9 @@
       </div>
 
       <div class="hidden lg:inline flex-1 text-end">
-        <PrimaryButton>
+        <ButtonPrimary>
           Área do parceiro
-        </PrimaryButton>
+        </ButtonPrimary>
       </div>
 
       <div class="inline lg:hidden">
