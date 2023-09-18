@@ -1,6 +1,6 @@
 <template>
     <div class="container mx-auto py-12 text-gray-900">
-        <h3 class="text-6xl md:text-7xl font-semibold mb-12 max-w-2xl mx-auto md:text-center">
+        <h3 class="text-5xl md:text-7xl font-semibold mb-12 max-w-2xl mx-auto text-center">
             Tenha <span class="text-blue-gradient">controle</span> 
             total de sua portaria!
         </h3>
