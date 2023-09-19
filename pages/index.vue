@@ -43,7 +43,7 @@
   </section>
 
   <!-- * Solução -->
-  <section class="bg-white py-12 px-4 border border-red-300">
+  <section class="bg-white py-12 px-4">
     <main class="container mx-auto">
       <h3 class="text-4xl font-extrabold text-center mb-12">
         Conheça nossas <span class="text-blue-gradient">soluções</span>
@@ -158,8 +158,7 @@
         <!-- * Pergunta 1 -->
         <AccordionItem>
           <template v-slot:accordionHeader>
-            Em caso de festa, posso enviar convites via WhatsApp
-            para entrada no condomínio?
+            Posso enviar convites via WhatsApp para entrada no condomínio?
           </template>
           <template v-slot:accordionBody>
             Sim! Nosso sistema proporciona a opção de enviar convites via WhatsApp, assim seu convidado 
@@ -170,7 +169,7 @@
         <!-- * Pergunta 2 -->
         <AccordionItem>
           <template v-slot:accordionHeader>
-            Consigo ver a imagem de quem tocou o interfone mesmo antes de atender?
+            Consigo ver quem tocou o interfone mesmo antes de atender?
           </template>
           <template v-slot:accordionBody>
             Quando alguém chama no interfone, de imediato o seu app abre e exibe a imagem da portaria,
@@ -181,7 +180,7 @@
         <!-- * Pergunta 3 -->
         <AccordionItem>
           <template v-slot:accordionHeader>
-            E se estiver sem internet, irei receber a chamada do interfone ou portaria?
+            Se estiver sem internet, irei receber a chamada do interfone ou portaria?
           </template>
           <template v-slot:accordionBody>
             Sim, nosso sistema identifica quando não há nenhum equipamento online realizando uma chamada 
