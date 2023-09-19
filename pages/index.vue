@@ -43,7 +43,7 @@
   </section>
 
   <!-- * Solução -->
-  <section class="bg-white py-12 px-4">
+  <section class="bg-white py-12 px-4 border border-red-300">
     <main class="container mx-auto">
       <h3 class="text-4xl font-extrabold text-center mb-12">
         Conheça nossas <span class="text-blue-gradient">soluções</span>
@@ -51,15 +51,15 @@
 
       <div class="mb-12 flex justify-center gap-10 flex-col md:flex-row items-center">
 
-        <div class="max-w-lg mb-4">
-          <img src="~/assets/img/solution1.jpg" class="h-72 w-full rounded-lg mb-4 object-cover" />
+        <div class="max-w-lg mb-4 md:mb-0">
+          <img src="~/assets/img/solution1.jpg" class="h-72 w-full rounded-lg mb-4 object-cover"/>
           <h3 class="font-semibold text-2xl mb-3">Portaria Autônoma</h3>
           <p class="text-lg font-light">Oferecemos aos nossos clientes autonomia no controle e acesso do seu condomínio
           </p>
         </div>
 
-        <div class="max-w-lg mb-4">
-          <img src="~/assets/img/solution2.jpg" class="h-72 w-full rounded-lg mb-4 object-cover" />
+        <div class="max-w-lg">
+          <img src="~/assets/img/solution2.jpg" class="h-72 w-full rounded-lg mb-4 object-cover"/>
           <h3 class="font-semibold text-2xl mb-3">App já disponível</h3>
           <p class="text-lg font-light">Oferecemos aos nossos clientes autonomia no controle e acesso do seu condomínio
           </p>
@@ -162,9 +162,8 @@
             para entrada no condomínio?
           </template>
           <template v-slot:accordionBody>
-            Sim! Nosso sistema proporciona a opção de enviar convites via WhatsApp,
-            assim seu convidado entrará rapidamente, evitando filas e com toda segurança que só a Atendeaí
-            pode proporcionar!
+            Sim! Nosso sistema proporciona a opção de enviar convites via WhatsApp, assim seu convidado 
+            entrará rapidamente, evitando filas e com toda segurança que só a Atendeaí pode proporcionar!
           </template>
         </AccordionItem>
 
@@ -185,9 +184,8 @@
             E se estiver sem internet, irei receber a chamada do interfone ou portaria?
           </template>
           <template v-slot:accordionBody>
-            Sim, nosso sistema identifica quando não há nenhum equipamento online
-            realizando uma chamada telefônica convencional.
-            Assim você não irá perderá nenhuma chamada!
+            Sim, nosso sistema identifica quando não há nenhum equipamento online realizando uma chamada 
+            telefônica convencional. Assim você não irá perderá nenhuma chamada!
           </template>
         </AccordionItem>
 
@@ -197,7 +195,7 @@
             Posso fazer ligações entre moradores do condomínio?
           </template>
           <template v-slot:accordionBody>
-            Claro! Basta abrir o catálogo de apartamentos no aplicativo e escolher aquele que deseja chamar, as ligações
+            Claro! Basta abrir o catálogo de apartamentos e escolher aquele que deseja chamar, as ligações
             podem ser feitas utilizando tanto a rede de internet quanto a rede de telefonia convencional.
           </template>
         </AccordionItem>

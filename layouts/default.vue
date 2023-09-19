@@ -26,10 +26,13 @@
       </div>
 
       <div class="inline lg:hidden">
-        <button @click="exibeMenu()">
-          <Icon :name="alternaIcone" size="3em" id="botaoMenu" />
+        <button @click="menuAberto = !menuAberto">
+          <Icon :name="menuAberto ? 'majesticons:close' : 'majesticons:menu'" size="2.5em" id="botaoMenu"/>
         </button>
       </div>
+
+      <!-- * Modal -->
+      <div class="fixed inset-0 bg-gray-900 bg-opacity-50 z-50" v-show="menuAberto" @click="menuAberto = false"></div>
 
     </div>
   </nav>
@@ -99,33 +102,21 @@
   </button>
 </template>
 
-<script>
-export default {
-  data() {
-    return {
-      isScrolled: false,
-      aberto: false
-    };
-  },
-  mounted() {
-    window.addEventListener('scroll', this.handleScroll);
-  },
-  beforeUnmount() {
-    window.removeEventListener('scroll', this.handleScroll);
-  },
-  computed: {
-    alternaIcone() {
-      return this.aberto ? 'majesticons:close' : 'majesticons:menu';
-    }
-  },
-  methods: {
-    handleScroll() {
-      this.isScrolled = window.scrollY > 0;
-    },
-    exibeMenu() {
-      console.log('clicou', this.aberto);
-      this.aberto = !this.aberto; // Inverte o estado do menu
-    }
-  },
-};
+<script setup>
+
+  const menuAberto = ref(false);
+  const isScrolled = ref(false);
+
+  onMounted(() => {
+    window.addEventListener('scroll', handleScroll);
+  });
+
+  onBeforeUnmount(() => {
+    window.removeEventListener('scroll', handleScroll);
+  });
+
+  const handleScroll = () => {
+    isScrolled.value = window.scrollY > 0;
+  }
+
 </script>
