@@ -1,6 +1,6 @@
 <template>
     <header
-        class="shadow-sm bg-blue-gradient-accordion text-white p-3 rounded-lg text-lg font-medium cursor-pointer flex justify-between items-center"
+        class="shadow bg-blue-gradient-accordion text-white p-3 rounded-lg text-lg font-medium cursor-pointer flex justify-between items-center"
         @click="accordionAberto = !accordionAberto">
         <span class="pe-5 text-base flex-1">
             <slot name="accordionHeader" />
@@ -8,8 +8,11 @@
         <Icon name="material-symbols:keyboard-arrow-down-rounded" size="1.8em" :class="{ 'rotate-180': accordionAberto }"
             class="accordion-icon w-12" :data-expanded="accordionAberto" />
     </header>
-    <div class="accordion-body mb-5 m-3" :class="{ 'active': accordionAberto }">
-        <slot name="accordionBody" />
+
+    <div class="accordion-body mb-3 mt-2" :class="{ 'active': accordionAberto }">
+        <div class="p-3 border rounded-lg bg-gray-50 text-gray-800 shadow">
+            <slot name="accordionBody" />
+        </div>
     </div>
 </template>
 
@@ -20,34 +23,33 @@ const accordionAberto = ref(false);
 
 <style scoped>
 .accordion-icon {
-    transition: transform 0.3s ease-in-out;
+    transition: transform 0.5s ease;
 }
 
 .accordion-body {
     height: 0;
     overflow: hidden;
-    -webkit-transition: all 0.5s ease;
-    -moz-transition: all 0.5s ease;
-    -ms-transition: all 0.5s ease;
-    -o-transition: all 0.5s ease;
-    transition: all 1s ease;
+    -webkit-transition: all 0.8s ease;
+    -moz-transition: all 0.8s ease;
+    -ms-transition: all 0.8s ease;
+    -o-transition: all 0.8s ease;
+    transition: height 0.5s ease;
 }
 
 .accordion-body.active {
-    min-height: fit-content;
-    height: 6rem;
+    height: 10rem;
     transform: scale(1);
 }
 
 @media screen and (min-width: 576px) {
     .accordion-body.active {
-        height: 4.2rem;
+        height: 8.4rem;
     }
 }
 
 @media screen and (min-width: 768px) {
     .accordion-body.active {
-        height: 3rem;
+        height: 5.5rem;
     }
 }
 </style>

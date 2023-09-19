@@ -5,7 +5,7 @@
 
       <div class="flex-1 flex items-center gap-2 text-gray-950">
         <Icon name="lucide:door-open" size="2em" class="text-blue-500"></Icon>
-        <header id="nomeMarca" class="font-semibold text-2xl text-gray-950 py-2 rounded-md bg-white">
+        <header id="nomeMarca" class="font-semibold text-2xl text-gray-950 py-2 rounded-lg bg-white">
           atende<span class="text-blue-gradient">aí</span>
         </header>
       </div>
@@ -19,7 +19,7 @@
 
       <div class="hidden lg:inline flex-1 text-end">
         <NuxtLink to="/register">
-          <BtnPrimary>
+          <BtnPrimary class="py-3">
             Área do parceiro
           </BtnPrimary>
         </NuxtLink>

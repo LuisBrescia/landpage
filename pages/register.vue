@@ -12,7 +12,7 @@
                 <header class="mb-12">
                     <h3 class="text-lg font-semibold mb-3">Experimente de forma gratuita</h3>
                     <p class="text-base">
-                        Já cadastrado na plataforma? <span class="text-blue-gradient">Entre</span> em sua conta.
+                        Já cadastrado na plataforma? <span class="text-blue-gradient cursor-pointer">Entre com sua conta.</span>
                     </p>
                 </header>
 
@@ -20,28 +20,28 @@
                     <div class="flex flex-col md:flex-row gap-5">
                         <div>
                             <label for="firstName" class="font-medium mb-3 block text-sm">Primeiro nome</label>
-                            <input type="text" name="firstName" class="shadow-sm bg-gray-50 border w-full rounded-md p-2 focus:border-blue-500 focus:outline-none">
+                            <input type="text" name="firstName" class="shadow-sm bg-gray-50 border w-full rounded-lg p-2 focus:border-blue-500 focus:outline-blue-500">
                         </div>
                         <div>
                             <label for="lastName" class="font-medium mb-3 block text-sm">Sobrenome</label>
-                            <input type="text" name="lastName" class="shadow-sm bg-gray-50 border w-full rounded-md p-2 focus:border-blue-500 focus:outline-none">
+                            <input type="text" name="lastName" class="shadow-sm bg-gray-50 border w-full rounded-lg p-2 focus:border-blue-500 focus:outline-blue-500">
                         </div>
                     </div>
 
                     <div>
                         <label for="email" class="font-medium mb-3 block text-sm">Email</label>
                         <input type="email" name="email"
-                            class="shadow-sm bg-gray-50 border rounded-md p-2 w-full focus:border-blue-500 focus:outline-none">
+                            class="shadow-sm bg-gray-50 border rounded-lg p-2 w-full focus:border-blue-500 focus:outline-blue-500">
                     </div>
 
                     <div>
                         <label for="name" class="font-medium mb-3 block text-sm">Senha</label>
-                        <input type="password" name="password" class="shadow-sm bg-gray-50 border rounded-md p-2 w-full focus:border-blue-500 focus:outline-none">
+                        <input type="password" name="password" class="shadow-sm bg-gray-50 border rounded-lg p-2 w-full focus:border-blue-500 focus:outline-blue-500">
                     </div>
 
                     <div>
                         <label for="name" class="font-medium mb-3 block text-sm">Como nos conheceu?</label>
-                        <select class="shadow-sm bg-gray-50 border rounded-md p-2 w-full focus:border-blue-500 focus:outline-none appearance-none">
+                        <select class="shadow-sm bg-gray-50 border rounded-lg p-2 w-full focus:border-blue-500 focus:outline-blue-500 appearance-none">
                             <option value="google">Google</option>
                             <option value="facebook">Facebook</option>
                             <option value="instagram">Instagram</option>

@@ -3,7 +3,7 @@
   <section class="py-6 md:py-12 px-4 ">
     <main class="container mx-auto py-12 text-gray-900">
 
-      <h3 class="text-5xl sm:text-7xl font-bold mb-12 max-w-3xl mx-auto text-center">
+      <h3 class="text-5xl sm:text-7xl font-bold mb-12 max-w-3xl mx-auto text-center" style="letter-spacing: -0.05rem;">
         Tenha <span class="text-blue-gradient">controle</span>
         total de sua portaria!
       </h3>
@@ -30,7 +30,7 @@
   <section class="bg-blue-gradient py-12 px-4">
     <main class="container mx-auto text-center max-w-2xl">
 
-      <Icon name="fluent:target-arrow-20-regular" class="mb-3 text-white rounded-md border-2 shadow" size="4em"></Icon>
+      <Icon name="fluent:target-arrow-20-regular" class="mb-3 text-white rounded-lg border-2 shadow" size="4em"></Icon>
 
       <h3 class="font-semibold text-2xl text-white mb-12">
         Nossa missão é desenvolver e fornecer
@@ -42,11 +42,12 @@
     </main>
   </section>
 
+  <!-- * Solução -->
   <section class="bg-white py-12 px-4">
     <main class="container mx-auto">
-      <header class="text-4xl font-extrabold text-center mb-12">
+      <h3 class="text-4xl font-extrabold text-center mb-12">
         Conheça nossas <span class="text-blue-gradient">soluções</span>
-      </header>
+      </h3>
 
       <div class="mb-12 flex justify-center gap-10 flex-col md:flex-row items-center">
 
@@ -68,20 +69,22 @@
     </main>
   </section>
 
+  <!-- * Depoimentos -->
   <section class="bg-gray-950 py-12 px-4">
     <main class="container text-center text-gray-300 mx-auto">
 
       <header class="mx-auto text-center mb-12 max-w-lg">
         <h3 class="text-4xl font-extrabold mb-2 text-white">Conheça nosso <span class="text-blue-gradient">blog</span>
         </h3>
-        <span class="text-lg">Acompanhe por aqui tudo sobre eventos, notícias e novidades do mercado de portaria
-          virtual.</span>
+        <span class="text-lg">
+          Acompanhe por aqui tudo sobre eventos, notícias e novidades do mercado de portaria virtual.
+        </span>
       </header>
 
       <div class="grid md:grid-cols-3 gap-10 mb-12">
 
         <div class="text-start">
-          <img src="~/assets/img/blog1.jpg" class="h-72 w-full rounded-md mb-4 object-cover" />
+          <img src="~/assets/img/blog1.jpg" class="h-72 w-full rounded-lg mb-4 object-cover" />
           <h3 class="text-white text-2xl mb-4 font-bold">Qual é o melhor tipo de portaria para meu condomínio?</h3>
           <p>
             A escolha do serviço de portaria é sempre um ponto de atenção para os condomínios. Escolhas erradas podem
@@ -91,7 +94,7 @@
 
 
         <div class="text-start">
-          <img src="~/assets/img/blog2.jpg" class="h-72 w-full rounded-md mb-4 object-cover" />
+          <img src="~/assets/img/blog2.jpg" class="h-72 w-full rounded-lg mb-4 object-cover" />
           <h3 class="text-white text-2xl mb-4 font-bold">Portaria autônoma: Economia inteligente e eficiente</h3>
           <p>
             A substituição dos porteiros pelo serviço de portaria remota tem sido prática comum nos condomínios do Brasil.
@@ -100,7 +103,7 @@
 
 
         <div class="text-start">
-          <img src="~/assets/img/blog3.jpg" class="h-72 w-full rounded-md mb-4 object-cover" />
+          <img src="~/assets/img/blog3.jpg" class="h-72 w-full rounded-lg mb-4 object-cover" />
           <h3 class="text-white text-2xl mb-4 font-bold">5 dicas para melhorar a segurança do seu condomínio</h3>
           <p>
             A segurança do condomínio e seus moradores é uma preocupação constante de síndicos e gestores. Afinal, em
@@ -113,6 +116,7 @@
     </main>
   </section>
 
+  <!-- * Fale já com nossa equipe -->
   <section class="bg-blue-gradient py-12 px-4">
     <main class="container text-center text-white mx-auto">
 
@@ -120,10 +124,10 @@
 
         <div class="text-center md:text-start max-w-lg mb-10 mx-auto">
 
-          <header class="font-bold text-4xl mb-5 text-gray-900">
+          <h3 class="font-bold text-4xl mb-5 text-gray-900">
             <span class="text-white">Ainda não tem o sistema instalado?</span>
             Não se preocupe!
-          </header>
+          </h3>
 
           <p class="font-semibold text-xl mb-12">
             Contamos com a solução ideal para você, com equipamentos de primeira que garantem o acesso seja via tag,
@@ -140,8 +144,67 @@
     </main>
   </section>
 
-  <section class="bg-white py-12 px-4">
-    <PerguntasFrequentes />
+  <!-- * Perguntas Frequentes -->
+  <section class="bg-white pb-6 pt-12 px-4">
+    <main class="container mx-auto text-gray-900">
+
+      <header class="text-center mb-12 max-w-lg mx-auto">
+        <Icon name="material-symbols:help-center-rounded" class="mb-2 rounded-lg text-5xl"></Icon>
+        <h3 class="text-4xl font-extrabold mb-2"><span class="text-blue-gradient">Perguntas</span> frequentes</h3>
+        <span class="text-lg mb-3">Se não encontrar o que procura aqui, fale conosco.</span>
+      </header>
+
+      <div class="mx-auto max-w-6xl flex flex-col">
+        <!-- * Pergunta 1 -->
+        <AccordionItem>
+          <template v-slot:accordionHeader>
+            Em caso de festa, posso enviar convites via WhatsApp
+            para entrada no condomínio?
+          </template>
+          <template v-slot:accordionBody>
+            Sim! Nosso sistema proporciona a opção de enviar convites via WhatsApp,
+            assim seu convidado entrará rapidamente, evitando filas e com toda segurança que só a Atendeaí
+            pode proporcionar!
+          </template>
+        </AccordionItem>
+
+        <!-- * Pergunta 2 -->
+        <AccordionItem>
+          <template v-slot:accordionHeader>
+            Consigo ver a imagem de quem tocou o interfone mesmo antes de atender?
+          </template>
+          <template v-slot:accordionBody>
+            Quando alguém chama no interfone, de imediato o seu app abre e exibe a imagem da portaria,
+            assim você poderá visualizar e decidir se irá atender ou não a chamada.
+          </template>
+        </AccordionItem>
+
+        <!-- * Pergunta 3 -->
+        <AccordionItem>
+          <template v-slot:accordionHeader>
+            E se estiver sem internet, irei receber a chamada do interfone ou portaria?
+          </template>
+          <template v-slot:accordionBody>
+            Sim, nosso sistema identifica quando não há nenhum equipamento online
+            realizando uma chamada telefônica convencional.
+            Assim você não irá perderá nenhuma chamada!
+          </template>
+        </AccordionItem>
+
+        <!-- * Pergunta 4 -->
+        <AccordionItem>
+          <template v-slot:accordionHeader>
+            Posso fazer ligações entre moradores do condomínio?
+          </template>
+          <template v-slot:accordionBody>
+            Claro! Basta abrir o catálogo de apartamentos no aplicativo e escolher aquele que deseja chamar, as ligações
+            podem ser feitas utilizando tanto a rede de internet quanto a rede de telefonia convencional.
+          </template>
+        </AccordionItem>
+
+      </div>
+
+    </main>
   </section>
 
   <!-- * Contato -->
@@ -149,7 +212,7 @@
     <main class="container mx-auto text-gray-900">
 
       <header class="text-center mb-4 max-w-lg mx-auto">
-        <Icon name="ph:paper-plane-tilt-fill" class="mb-2 rounded-md text-4xl"></Icon>
+        <Icon name="ph:paper-plane-tilt-fill" class="mb-2 rounded-lg text-4xl"></Icon>
         <h3 class="text-4xl font-extrabold mb-2">Entre em <span class="text-blue-gradient">contato</span></h3>
         <span class="text-lg mb-3">Sua mensagem será respondida assim que possível.</span>
       </header>
@@ -158,22 +221,26 @@
 
         <div>
           <label class="font-medium block text-sm mb-3">Nome</label>
-          <input type="text" class="bg-gray-50 border rounded-md p-2 w-full focus:border-blue-500 focus:outline-none shadow-sm" />
+          <input type="text"
+            class="bg-gray-50 border rounded-lg p-2 w-full focus:border-blue-500 focus:outline-blue-500 shadow-sm" />
         </div>
 
         <div>
           <label class="font-medium block text-sm mb-3">E-mail</label>
-          <input type="email" class="bg-gray-50 border rounded-md p-2 w-full focus:border-blue-500 focus:outline-none shadow-sm" />
+          <input type="email"
+            class="bg-gray-50 border rounded-lg p-2 w-full focus:border-blue-500 focus:outline-blue-500 shadow-sm" />
         </div>
 
         <div>
           <label class="font-medium block text-sm mb-3">Telefone</label>
-          <input type="tel" class="bg-gray-50 border rounded-md p-2 w-full focus:border-blue-500 focus:outline-none shadow-sm" />
+          <input type="tel"
+            class="bg-gray-50 border rounded-lg p-2 w-full focus:border-blue-500 focus:outline-blue-500 shadow-sm" />
         </div>
 
         <div>
           <label class="font-medium block text-sm mb-3">Mensagem</label>
-          <textarea class="max-h-32  bg-gray-50 border rounded-md p-2 w-full focus:border-blue-500 focus:outline-none shadow-sm"></textarea>
+          <textarea
+            class="max-h-32  bg-gray-50 border rounded-lg p-2 w-full focus:border-blue-500 focus:outline-blue-500 shadow-sm"></textarea>
         </div>
 
         <div class="text-center">
@@ -204,5 +271,4 @@
 
     </main>
   </section>
-
 </template>

@@ -91,7 +91,6 @@
     filter: drop-shadow(0 0 8px #fff);
 }
 
-form input:focus,
-form textarea:focus {
-    outline: 1px solid #4b5563;
+h3 {
+    letter-spacing: -0.025rem;
 }
