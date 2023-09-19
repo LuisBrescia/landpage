@@ -10,7 +10,6 @@
     padding: none;
 }
 
-
 #nomeMarca {
   font-family: 'Poppins', sans-serif;
   /* font-size: 1.4rem; */
@@ -81,12 +80,6 @@
 #six:hover {
     transform: scale(1.1); 
     color: #02f783;
-}
-
-#customHr {
-    height: 1px;
-    background-size: 200%;
-    animation: background-pan 3s linear infinite;
 }
 
 .lojaMobile {

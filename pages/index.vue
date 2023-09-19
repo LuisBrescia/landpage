@@ -3,7 +3,7 @@
   <section class="py-6 md:py-12 px-4 ">
     <main class="container mx-auto py-12 text-gray-900">
 
-      <h3 class="text-5xl md:text-7xl font-bold md:font-semibold mb-12 max-w-2xl mx-auto text-center">
+      <h3 class="text-5xl sm:text-7xl font-bold mb-12 max-w-3xl mx-auto text-center">
         Tenha <span class="text-blue-gradient">controle</span>
         total de sua portaria!
       </h3>
@@ -13,12 +13,12 @@
         controlar acessos de sua portaria, de onde estiver e de forma totalmente autônoma.
       </p>
 
-      <div class="flex justify-center gap-5">
+      <div class="flex justify-center gap-5 items-center flex-wrap-reverse">
         <NuxtLink to="/register">
-          <BtnDark>Teste Grátis</BtnDark>
+          <BtnDark class="py-3">Teste Grátis</BtnDark>
         </NuxtLink>
-        <BtnLight>
-          <Icon name="ic:round-play-arrow" size="1.2em" class="text-sky-500 me-1"></Icon>
+        <BtnLight class="py-3">
+          <Icon name="ic:round-play-arrow" size="1.4rem" class="text-sky-500"></Icon>
           Vídeo explicativo
         </BtnLight>
       </div>
@@ -38,7 +38,7 @@
         que garantam a segurança das pessoas e
         <span class="font-black">simplifiquem suas vidas.</span>
       </h3>
-      <BtnDark>Saiba mais</BtnDark>
+      <BtnDark class="py-3">Saiba mais</BtnDark>
     </main>
   </section>
 
@@ -130,7 +130,7 @@
             reconhecimento facial, e nosso app.
           </p>
 
-          <BtnDark>Fale já com nossa equipe</BtnDark>
+          <BtnDark class="py-3">Fale já com nossa equipe</BtnDark>
         </div>
 
         <img class="lojaMobile mx-auto" src="~/assets/img/ainda-nao-tem-sistema-instalado.png" />

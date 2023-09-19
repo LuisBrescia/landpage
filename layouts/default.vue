@@ -1,5 +1,3 @@
-<script lang="ts" setup></script>
-
 <template>
   <!-- * Navbar -->
   <nav class="flex justify-center p-3 sticky top-0 mt-5 z-50 bg-white" :class="{ 'shadow': isScrolled }">
@@ -79,7 +77,7 @@
         </div>
       </div>
 
-      <div id="customHr" class="bg-gradient-to-r from-gray-950 via-gray-600 to-gray-950 my-3 from-45% to-95%"></div>
+      <HorizontalRule />
 
       <ul class="flex flex-col lg:flex-row justify-between py-3 md:pt-0">
         <li class="text-sm text-gray-600 text-center">

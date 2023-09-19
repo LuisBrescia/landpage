@@ -8,8 +8,7 @@
         <Icon name="material-symbols:keyboard-arrow-down-rounded" size="1.8em" :class="{ 'rotate-180': accordionAberto }"
             class="accordion-icon w-12" :data-expanded="accordionAberto" />
     </header>
-
-    <div class="accordion-body mb-5 m-3" :class="{ 'active': !accordionAberto }">
+    <div class="accordion-body mb-5 m-3" :class="{ 'active': accordionAberto }">
         <slot name="accordionBody" />
     </div>
 </template>
@@ -36,7 +35,19 @@ const accordionAberto = ref(false);
 
 .accordion-body.active {
     min-height: fit-content;
-    height: 3rem;
+    height: 6rem;
     transform: scale(1);
+}
+
+@media screen and (min-width: 576px) {
+    .accordion-body.active {
+        height: 4.2rem;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .accordion-body.active {
+        height: 3rem;
+    }
 }
 </style>
