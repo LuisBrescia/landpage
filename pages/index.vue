@@ -151,7 +151,7 @@
       <header class="text-center mb-4 max-w-lg mx-auto">
         <Icon name="ph:paper-plane-tilt-fill" class="mb-2 rounded-md text-4xl"></Icon>
         <h3 class="text-4xl font-extrabold mb-2">Entre em <span class="text-blue-gradient">contato</span></h3>
-        <span class="text-lg mb-3">Nossa equipe entrará em contato no prazo de 6 horas.</span>
+        <span class="text-lg mb-3">Sua mensagem será respondida assim que possível.</span>
       </header>
 
       <form class="p-5 max-w-2xl mx-auto flex flex-col gap-8">
@@ -173,7 +173,7 @@
 
         <div>
           <label class="font-medium block text-sm mb-3">Mensagem</label>
-          <textarea class="max-h-32 bg-gray-50 border rounded-md p-2 w-full focus:border-blue-500 focus:outline-none shadow-sm"></textarea>
+          <textarea class="max-h-32  bg-gray-50 border rounded-md p-2 w-full focus:border-blue-500 focus:outline-none shadow-sm"></textarea>
         </div>
 
         <div class="text-center">
