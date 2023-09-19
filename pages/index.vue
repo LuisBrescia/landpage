@@ -1,23 +1,24 @@
 <template>
   <!-- * Header -->
   <section class="py-6 md:py-12 px-4 ">
-    <main class="container mx-auto py-12 text-gray-900">
+    <main class="container mx-auto py-12">
 
-      <h3 class="text-5xl sm:text-7xl font-bold mb-12 max-w-3xl mx-auto text-center" style="letter-spacing: -0.05rem;">
-        Tenha <span class="text-blue-gradient">controle</span>
-        total de sua portaria!
+      <h3 class="text-5xl sm:text-7xl font-bold mb-12 max-w-3xl mx-auto text-center text-gray-900" style="letter-spacing: -0.075rem;">
+        Tenha <span class="text-blue-gradient">controle</span> total de sua portaria!
       </h3>
 
-      <p class="text-lg leading-7 mb-12 max-w-3xl mx-auto md:text-center">
+      <p class="sm:text-lg leading-7 mb-12 max-w-2xl mx-auto text-center font-light text-gray-800">
         Com nosso aplicativo da AtendeAí integrado ao seu sistema de portaria, você poderá
         controlar acessos de sua portaria, de onde estiver e de forma totalmente autônoma.
       </p>
 
-      <div class="flex justify-center gap-5 items-center flex-wrap-reverse">
-        <NuxtLink to="/register">
-          <BtnDark class="py-3">Teste Grátis</BtnDark>
+      <div class="flex max-w-2xl mx-auto gap-5 flex-wrap sm:flex-nowrap items-center">
+        <NuxtLink to="/register" class="mx-auto w-full sm:w-1/2">
+          <BtnDark class="rounded-lg w-full">
+            Teste Grátis
+          </BtnDark>
         </NuxtLink>
-        <BtnLight class="py-3">
+        <BtnLight class="rounded-lg w-full mx-auto sm:w-1/2">
           <Icon name="ic:round-play-arrow" size="1.4rem" class="text-sky-500"></Icon>
           Vídeo explicativo
         </BtnLight>
@@ -27,39 +28,38 @@
   </section>
 
   <!-- * Objetivo -->
-  <section class="bg-blue-gradient py-12 px-4">
-    <main class="container mx-auto text-center max-w-2xl">
+  <section class="bg-blue-gradient py-12 my-5 px-4">
+    <main class="container mx-auto text-center max-w-3xl">
 
-      <Icon name="fluent:target-arrow-20-regular" class="mb-3 text-white rounded-lg border-2 shadow" size="4em"></Icon>
+      <Icon name="fluent:target-arrow-20-regular" class="text-white rounded-lg border-2 shadow" size="4em"></Icon>
 
-      <h3 class="font-semibold text-2xl text-white mb-12">
-        Nossa missão é desenvolver e fornecer
-        <span class="font-black">soluções tecnológicas</span>
-        que garantam a segurança das pessoas e
-        <span class="font-black">simplifiquem suas vidas.</span>
+      <h3 class="text-xl md:text-3xl text-white mt-8 mb-12 font-medium">
+        Nossa missão é desenvolver e fornecer <span class="underline">soluções tecnológicas</span>
+        que garantam a segurança das pessoas e <span class="underline">simplifiquem suas vidas.</span>
       </h3>
-      <BtnDark class="py-3">Saiba mais</BtnDark>
+
+      <BtnDark class="text-sm border-0">Saiba mais</BtnDark>
     </main>
   </section>
 
   <!-- * Solução -->
   <section class="bg-white py-12 px-4">
     <main class="container mx-auto">
-      <h3 class="text-4xl font-extrabold text-center mb-12">
+      <h3 class="text-4xl font-semibold text-center mb-12">
         Conheça nossas <span class="text-blue-gradient">soluções</span>
       </h3>
 
       <div class="mb-12 flex justify-center gap-10 flex-col md:flex-row items-center">
 
         <div class="max-w-lg mb-4 md:mb-0">
-          <img src="~/assets/img/solution1.jpg" class="h-72 w-full rounded-lg mb-4 object-cover"/>
+          <img src="~/assets/img/solution1.jpg" class="h-72 w-full rounded-lg mb-4 object-cover" />
           <h3 class="font-semibold text-2xl mb-3">Portaria Autônoma</h3>
           <p class="text-lg font-light">Oferecemos aos nossos clientes autonomia no controle e acesso do seu condomínio
           </p>
         </div>
 
         <div class="max-w-lg">
-          <img src="~/assets/img/solution2.jpg" class="h-72 w-full rounded-lg mb-4 object-cover"/>
+          <img src="~/assets/img/solution2.jpg" class="h-72 w-full rounded-lg mb-4 object-cover" />
           <h3 class="font-semibold text-2xl mb-3">App já disponível</h3>
           <p class="text-lg font-light">Oferecemos aos nossos clientes autonomia no controle e acesso do seu condomínio
           </p>
@@ -122,19 +122,19 @@
 
       <div class="grid grid-cols-1 md:grid-cols-2 items-center gap-10">
 
-        <div class="text-center md:text-start max-w-lg mb-10 mx-auto">
+        <div class="text-center md:text-start max-w-xl mb-10 mx-auto">
 
           <h3 class="font-bold text-4xl mb-5 text-gray-900">
             <span class="text-white">Ainda não tem o sistema instalado?</span>
             Não se preocupe!
           </h3>
 
-          <p class="font-semibold text-xl mb-12">
+          <p class="text-xl mb-12">
             Contamos com a solução ideal para você, com equipamentos de primeira que garantem o acesso seja via tag,
             reconhecimento facial, e nosso app.
           </p>
-
-          <BtnDark class="py-3">Fale já com nossa equipe</BtnDark>
+          
+          <BtnDark class="border-0">Fale já com nossa equipe</BtnDark>
         </div>
 
         <img class="lojaMobile mx-auto" src="~/assets/img/ainda-nao-tem-sistema-instalado.png" />
@@ -161,7 +161,7 @@
             Posso enviar convites via WhatsApp para entrada no condomínio?
           </template>
           <template v-slot:accordionBody>
-            Sim! Nosso sistema proporciona a opção de enviar convites via WhatsApp, assim seu convidado 
+            Sim! Nosso sistema proporciona a opção de enviar convites via WhatsApp, assim seu convidado
             entrará rapidamente, evitando filas e com toda segurança que só a Atendeaí pode proporcionar!
           </template>
         </AccordionItem>
@@ -183,7 +183,7 @@
             Se estiver sem internet, irei receber a chamada do interfone ou portaria?
           </template>
           <template v-slot:accordionBody>
-            Sim, nosso sistema identifica quando não há nenhum equipamento online realizando uma chamada 
+            Sim, nosso sistema identifica quando não há nenhum equipamento online realizando uma chamada
             telefônica convencional. Assim você não irá perderá nenhuma chamada!
           </template>
         </AccordionItem>

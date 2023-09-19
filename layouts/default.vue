@@ -1,25 +1,26 @@
 <template>
   <!-- * Navbar -->
   <nav class="flex justify-center p-3 sticky top-0 mt-5 z-50 bg-white" :class="{ 'shadow': isScrolled }">
-    <div class="container flex justify-between items-center">
 
-      <div class="flex-1 flex items-center gap-2 text-gray-950">
-        <Icon name="lucide:door-open" size="2em" class="text-blue-500"></Icon>
-        <header id="nomeMarca" class="font-semibold text-2xl text-gray-950 py-2 rounded-lg bg-white">
+    <div class="container flex justify-between items-center">
+      
+      <div class="flex-1 flex items-center gap-2 text-gray-900">
+        <!-- <Icon name="lucide:door-open" size="2em" class="text-blue-500"></Icon> -->
+        <header class="font-semibold text-3xl py-2 rounded-lg bg-white">
           atende<span class="text-blue-gradient">aí</span>
         </header>
       </div>
 
-      <div class="hidden lg:flex gap-5">
-        <a href="/" class="text-sm px-3 py-2 rounded-lg hover:bg-gray-100">Como funciona</a>
-        <a href="/" class="text-sm px-3 py-2 rounded-lg hover:bg-gray-100">Benefícios</a>
-        <a href="/" class="text-sm px-3 py-2 rounded-lg hover:bg-gray-100">Contato</a>
-        <a href="/" class="text-sm px-3 py-2 rounded-lg hover:bg-gray-100">Seja um parceiro</a>
+      <div class="hidden lg:flex gap-3 font-light">
+        <a href="/" class="px-3 py-2 rounded-lg hover:bg-gray-100">Como funciona</a>
+        <a href="/" class="px-3 py-2 rounded-lg hover:bg-gray-100">Benefícios</a>
+        <a href="/" class="px-3 py-2 rounded-lg hover:bg-gray-100">Contato</a>
+        <a href="/" class="px-3 py-2 rounded-lg hover:bg-gray-100">Seja um parceiro</a>
       </div>
 
       <div class="hidden lg:inline flex-1 text-end">
         <NuxtLink to="/register">
-          <BtnPrimary class="py-3">
+          <BtnPrimary class="py-3 rounded-lg">
             Área do parceiro
           </BtnPrimary>
         </NuxtLink>
@@ -32,7 +33,7 @@
       </div>
 
       <!-- * Modal -->
-      <div class="fixed inset-0 bg-gray-900 bg-opacity-50 z-50" v-show="menuAberto" @click="menuAberto = false"></div>
+      <!-- <div class="fixed inset-0 bg-gray-900 bg-opacity-50 z-50" v-show="menuAberto" @click="menuAberto = false"></div> -->
 
     </div>
   </nav>
