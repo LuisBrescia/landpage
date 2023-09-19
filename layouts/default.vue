@@ -46,20 +46,20 @@
       <div class="grid md:grid-cols-3 gap-5">
         <div class="text-gray-300">
           <img src="~/assets/img/logo.png" alt="Logo" class="logoAtendeAi mb-5" />
-          <span>
+          <span class="font-light">
             Soluções tecnológicas para a sua<br>
             segurança e dia a dia.
           </span>
         </div>
 
-        <div class="text-gray-300">
+        <div class="text-gray-300 font-light">
           <header class="mb-5 text-blue-gradient font-semibold">Nosso endereço</header>
           Avenida Altamiro Avelino Soares, n˚ 625<br>
           loja 05, Bairro Castelo – Belo Horizonte/MG<br>
-          <strong>CEP: 31330-000</strong>
+          <strong class="font-medium">CEP: 31330-000</strong>
         </div>
 
-        <div class="text-gray-300">
+        <div class="text-gray-300 font-light">
           <header class="mb-5 text-blue-gradient font-semibold">Contatos</header>
           <div class="flex items-center mb-2">
             <Icon name="bi-whatsapp"></Icon>&nbsp; (31) 9 7115-3669

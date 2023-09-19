@@ -91,7 +91,3 @@ body {
 .lojaMobile:hover {
     filter: drop-shadow(0 0 8px #fff);
 }
-
-h3 {
-    letter-spacing: -0.025rem;
-}

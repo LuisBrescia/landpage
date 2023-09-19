@@ -33,7 +33,7 @@
 
       <Icon name="fluent:target-arrow-20-regular" class="text-white rounded-lg border-2 shadow" size="4em"></Icon>
 
-      <h3 class="text-xl md:text-3xl text-white mt-8 mb-12 font-medium">
+      <h3 class="text-xl md:text-3xl text-white mt-8 mb-12 font-medium tracking-tight">
         Nossa missão é desenvolver e fornecer <span class="underline">soluções tecnológicas</span>
         que garantam a segurança das pessoas e <span class="underline">simplifiquem suas vidas.</span>
       </h3>
@@ -45,7 +45,7 @@
   <!-- * Solução -->
   <section class="bg-white py-12 px-4">
     <main class="container mx-auto">
-      <h3 class="text-4xl font-semibold text-center mb-12">
+      <h3 class="text-4xl font-bold text-center mb-12 tracking-tighter">
         Conheça nossas <span class="text-blue-gradient">soluções</span>
       </h3>
 
@@ -74,15 +74,16 @@
     <main class="container text-center text-gray-300 mx-auto">
 
       <header class="mx-auto text-center mb-12 max-w-lg">
-        <h3 class="text-4xl font-extrabold mb-2 text-white">Conheça nosso <span class="text-blue-gradient">blog</span>
+        <h3 class="text-4xl font-bold mb-5 text-white tracking-tighter">Conheça nosso <span class="text-blue-gradient">blog</span>
         </h3>
-        <span class="text-lg">
+        <span class="text-lg font-light">
           Acompanhe por aqui tudo sobre eventos, notícias e novidades do mercado de portaria virtual.
         </span>
       </header>
 
       <div class="grid md:grid-cols-3 gap-10 mb-12">
 
+        <!-- > Transformar em componentes -->
         <div class="text-start">
           <img src="~/assets/img/blog1.jpg" class="h-72 w-full rounded-lg mb-4 object-cover" />
           <h3 class="text-white text-2xl mb-4 font-bold">Qual é o melhor tipo de portaria para meu condomínio?</h3>
@@ -91,7 +92,6 @@
             gerar consequências…
           </p>
         </div>
-
 
         <div class="text-start">
           <img src="~/assets/img/blog2.jpg" class="h-72 w-full rounded-lg mb-4 object-cover" />
@@ -150,7 +150,7 @@
 
       <header class="text-center mb-12 max-w-lg mx-auto">
         <Icon name="material-symbols:help-center-rounded" class="mb-2 rounded-lg text-5xl"></Icon>
-        <h3 class="text-4xl font-extrabold mb-2"><span class="text-blue-gradient">Perguntas</span> frequentes</h3>
+        <h3 class="text-4xl font-bold mb-3 tracking-tight"><span class="text-blue-gradient">Perguntas</span> frequentes</h3>
         <span class="text-lg mb-3">Se não encontrar o que procura aqui, fale conosco.</span>
       </header>
 
@@ -210,32 +210,32 @@
 
       <header class="text-center mb-4 max-w-lg mx-auto">
         <Icon name="ph:paper-plane-tilt-fill" class="mb-2 rounded-lg text-4xl"></Icon>
-        <h3 class="text-4xl font-extrabold mb-2">Entre em <span class="text-blue-gradient">contato</span></h3>
-        <span class="text-lg mb-3">Sua mensagem será respondida assim que possível.</span>
+        <h3 class="text-4xl font-bold mb-3 tracking-tight">Entre em <span class="text-blue-gradient">contato</span></h3>
+        <span class="text-lg mb-3 font-light">Sua mensagem será respondida assim que possível.</span>
       </header>
 
       <form class="p-5 max-w-2xl mx-auto flex flex-col gap-8">
 
         <div>
-          <label class="font-medium block text-sm mb-3">Nome</label>
+          <label class="font-semibold block text-sm mb-3">Nome</label>
           <input type="text"
             class="bg-gray-50 border rounded-lg p-2 w-full focus:border-blue-500 focus:outline-blue-500 shadow-sm" />
         </div>
 
         <div>
-          <label class="font-medium block text-sm mb-3">E-mail</label>
+          <label class="font-semibold block text-sm mb-3">E-mail</label>
           <input type="email"
             class="bg-gray-50 border rounded-lg p-2 w-full focus:border-blue-500 focus:outline-blue-500 shadow-sm" />
         </div>
 
         <div>
-          <label class="font-medium block text-sm mb-3">Telefone</label>
+          <label class="font-semibold block text-sm mb-3">Telefone</label>
           <input type="tel"
             class="bg-gray-50 border rounded-lg p-2 w-full focus:border-blue-500 focus:outline-blue-500 shadow-sm" />
         </div>
 
         <div>
-          <label class="font-medium block text-sm mb-3">Mensagem</label>
+          <label class="font-semibold block text-sm mb-3">Mensagem</label>
           <textarea
             class="max-h-32  bg-gray-50 border rounded-lg p-2 w-full focus:border-blue-500 focus:outline-blue-500 shadow-sm"></textarea>
         </div>
@@ -256,7 +256,7 @@
         Baixe agora o nosso aplicativo disponível!
       </header>
 
-      <p class="mb-5">
+      <p class="mb-5 font-light">
         Tenha acesso a todos os recursos exclusivos e únicos que<br>
         desenvolvemos para a sua portaria.
       </p>
