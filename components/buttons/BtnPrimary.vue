@@ -10,7 +10,7 @@
 <style scoped>
 
 button {
-    background: var(--gradient);
+    /* background: var(--gradient); */
     background-size: 200%;
     animation: background-pan 3s linear infinite;
     box-shadow: 0 0 10px 1px var(--primaria);

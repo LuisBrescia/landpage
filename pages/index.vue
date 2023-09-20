@@ -3,7 +3,8 @@
   <section class="py-6 md:py-12 px-4 ">
     <main class="container mx-auto py-12">
 
-      <h3 class="text-5xl sm:text-6xl md:text-7xl font-bold mb-12 max-w-3xl mx-auto text-center text-gray-900" style="letter-spacing: -0.075rem;">
+      <h3 class="text-5xl sm:text-6xl md:text-7xl font-bold mb-12 max-w-3xl mx-auto text-center text-gray-900"
+        style="letter-spacing: -0.075rem;">
         Tenha <span class="text-blue-gradient">controle</span> total de sua portaria!
       </h3>
 
@@ -27,11 +28,52 @@
     </main>
   </section>
 
+  <section class="pb-12 pt-16 flex flex-col lg:flex-row">
+
+    <main class="container mx-auto flex flex-col md:flex-row">
+
+
+      <CardHowTo filename="~/assets/img/passos-1.jpg" numero="1">
+        <template v-slot:numero>1</template> 
+        <template v-slot:conteudo>
+          Um visitante chega ao seu condomínio e disca para seu apartamento.
+        </template>      
+      </CardHowTo>
+
+      <CardHowTo filename="~/assets/img/passos-2.jpg" numero="2">
+        <template v-slot:numero>2</template> 
+        <template v-slot:conteudo>
+          Seu Smartphone toca junto com o interfone.
+        </template>      
+      </CardHowTo>
+
+    </main>
+
+    <main class="container mx-auto flex flex-col md:flex-row">
+
+      <CardHowTo filename="~/assets/img/passos-3.jpg" numero="3">
+        <template v-slot:conteudo>
+          Você identifica e atende o visitante via app atendeaí.
+        </template>      
+      </CardHowTo>
+
+
+      <CardHowTo filename="~/assets/img/passos-4.jpg" numero="4">
+        <template v-slot:numero>4</template> 
+        <template v-slot:conteudo>
+          Abra a porta de onde estiver, com apenas um clique.
+        </template>      
+      </CardHowTo>
+
+    </main>
+  </section>
+
   <!-- * Objetivo -->
   <section class="bg-blue-gradient py-12 my-5 px-4">
     <main class="container mx-auto text-center max-w-3xl">
 
-      <Icon name="fluent:target-arrow-20-regular" class="text-white rounded-sm border-2 shadow" size="4em"></Icon>
+      <Icon name="fluent:target-arrow-20-regular" class="text-white rounded-sm border-2 border-white shadow" size="4em">
+      </Icon>
 
       <h3 class="text-xl md:text-3xl text-white mt-8 mb-12 font-medium tracking-tight">
         Nossa missão é desenvolver e fornecer <span class="underline">soluções tecnológicas</span>
@@ -74,7 +116,8 @@
     <main class="container text-center text-gray-300 mx-auto">
 
       <header class="mx-auto text-center mb-12 max-w-lg">
-        <h3 class="text-4xl font-bold mb-5 text-white tracking-tighter">Conheça nosso <span class="text-blue-gradient">blog</span>
+        <h3 class="text-4xl font-bold mb-5 text-white tracking-tighter">Conheça nosso <span
+            class="text-blue-gradient">blog</span>
         </h3>
         <span class="text-lg font-light">
           Acompanhe por aqui tudo sobre eventos, notícias e novidades do mercado de portaria virtual.
@@ -135,7 +178,7 @@
             Contamos com a solução ideal para você, com equipamentos de primeira que garantem o acesso seja via tag,
             reconhecimento facial, e nosso app.
           </p>
-          
+
           <BtnDark class="border-0">Fale já com nossa equipe</BtnDark>
         </div>
 
@@ -152,8 +195,10 @@
 
       <header class="text-center mb-12 max-w-lg mx-auto">
         <Icon name="material-symbols:help-center-rounded" class="mb-2 rounded-sm text-5xl"></Icon>
-        <h3 class="text-3xl md:text-4xl font-bold mb-3 tracking-tight text-gray-900 whitespace-nowrap"><span class="text-blue-gradient">Perguntas</span> frequentes</h3>
-        <span class="text-base md:text-lg mb-3 font-light text-gray-800">Se não encontrar o que procura aqui, fale conosco.</span>
+        <h3 class="text-3xl md:text-4xl font-bold mb-3 tracking-tight text-gray-900 whitespace-nowrap"><span
+            class="text-blue-gradient">Perguntas</span> frequentes</h3>
+        <span class="text-base md:text-lg mb-3 font-light text-gray-800">Se não encontrar o que procura aqui, fale
+          conosco.</span>
       </header>
 
       <div class="mx-auto max-w-6xl flex flex-col">
@@ -212,8 +257,10 @@
 
       <header class="text-center mb-4 max-w-lg mx-auto">
         <Icon name="ph:paper-plane-tilt-fill" class="mb-2 rounded-sm text-4xl"></Icon>
-        <h3 class="text-3xl md:text-4xl font-bold mb-3 tracking-tight text-gray-900 whitespace-nowrap">Entre em <span class="text-blue-gradient">contato</span></h3>
-        <span class="text-base md:text-lg mb-3 font-light text-gray-800">Sua mensagem será respondida assim que possível.</span>
+        <h3 class="text-3xl md:text-4xl font-bold mb-3 tracking-tight text-gray-900 whitespace-nowrap">Entre em <span
+            class="text-blue-gradient">contato</span></h3>
+        <span class="text-base md:text-lg mb-3 font-light text-gray-800">Sua mensagem será respondida assim que
+          possível.</span>
       </header>
 
       <form class="p-5 max-w-2xl mx-auto flex flex-col gap-8">
@@ -243,7 +290,7 @@
         </div>
 
         <div class="text-center">
-          <BtnPrimary class="py-3 w-full rounded-sm" @click="preventDefault">Enviar mensagem</BtnPrimary>
+          <BtnPrimary class="w-full" @click="preventDefault">Enviar mensagem</BtnPrimary>
         </div>
       </form>
 

@@ -7,13 +7,13 @@
   </div>
 
   <!-- * Navbar -->
-  <nav class="flex justify-center p-3 sticky top-0 z-40 bg-white" :class="{ 'shadow': isScrolled && !menuAberto }">
+  <nav class="flex justify-center px-3 lg:py-2 sticky top-0 z-40 bg-white" :class="{ 'shadow': isScrolled && !menuAberto }">
 
     <div class="w-full max-w-screen-xl flex justify-between items-center">
 
       <div class="flex-1 flex items-center gap-2">
         <!-- <Icon name="lucide:door-open" size="2.5em" class="text-blue-400"></Icon> -->
-        <header class="text-gray-900 font-semibold text-3xl md:text-4xl py-2 rounded-lg bg-white tracking-tighter">
+        <header class="text-gray-900 font-semibold text-2xl md:text-3xl py-2 rounded-lg bg-white tracking-tighter">
           Atende<span class="text-blue-gradient">aí</span>
         </header>
       </div>
@@ -27,7 +27,7 @@
 
       <div class="hidden lg:inline flex-1 text-end">
         <NuxtLink to="/register">
-          <BtnPrimary class="py-3 rounded-lg">
+          <BtnPrimary>
             Área do parceiro
           </BtnPrimary>
         </NuxtLink>
