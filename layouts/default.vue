@@ -1,7 +1,6 @@
 <template>
-
   <div class="bg-blue-gradient text-white py-2 text-center font-light mb-4 hidden lg:block" style="font-size: 0.925rem;">
-    Este site não possui vínculo algum com a empresa 
+    Este site não possui vínculo com a empresa
     <NuxtLink to="https://atendeai.com.br" target="_blank" class="underline cursor-pointer">
       Atendeaí
     </NuxtLink>.
@@ -14,7 +13,7 @@
 
       <div class="flex-1 flex items-center gap-2">
         <!-- <Icon name="lucide:door-open" size="2.5em" class="text-blue-400"></Icon> -->
-        <header class="text-gray-900 font-semibold text-3xl md:text-4xl py-2 rounded-lg bg-white ms-2 tracking-tighter">
+        <header class="text-gray-900 font-semibold text-3xl md:text-4xl py-2 rounded-lg bg-white tracking-tighter">
           Atende<span class="text-blue-gradient">aí</span>
         </header>
       </div>
@@ -43,7 +42,8 @@
 
   </nav>
 
-  <div id="blend" class="block lg:hidden fixed inset-0 bg-gray-900 bg-opacity-50 z-30" v-show="menuAberto" @click="menuAberto = false"></div>
+  <div id="blend" class="block lg:hidden fixed inset-0 bg-gray-900 bg-opacity-50 z-30" v-show="menuAberto"
+    @click="menuAberto = false"></div>
 
   <div id="mobileMenuWrapper" :class="{ 'active': menuAberto }" class="fixed w-full z-50">
     <div class="shadow bg-white">
@@ -67,23 +67,29 @@
   <section class="bg-gray-950 pt-16 pb-4 px-4">
     <main class="container mx-auto">
       <div class="grid md:grid-cols-3 gap-5">
-        <div class="text-gray-300">
-          <img src="~/assets/img/logo.png" alt="Logo" class="logoAtendeAi mb-5" />
-          <span class="font-light">
+
+        <!-- <img src="~/assets/img/logo.png" alt="Logo" class="logoAtendeAi mb-5" /> -->
+        <div>
+          <header class="text-white font-semibold mb-5 text-2xl">
+            Atende<span class="text-blue-gradient">aí</span>
+          </header>
+          <span class="font-light text-gray-300">
             Soluções tecnológicas para a sua<br>
             segurança e dia a dia.
           </span>
         </div>
 
-        <div class="text-gray-300 font-light">
-          <header class="mb-5 text-blue-gradient font-semibold">Nosso endereço</header>
-          Avenida Altamiro Avelino Soares, n˚ 625<br>
-          loja 05, Bairro Castelo – Belo Horizonte/MG<br>
-          <strong class="font-medium">CEP: 31330-000</strong>
+        <div>
+          <header class="text-xl font-semibold mb-5 text-blue-gradient">Nosso endereço</header>
+          <span class="font-light text-gray-300">
+            Avenida Altamiro Avelino Soares, n˚ 625<br>
+            loja 05, Bairro Castelo – Belo Horizonte/MG<br>
+            <strong class="font-medium">CEP: 31330-000</strong>
+          </span>
         </div>
 
         <div class="text-gray-300 font-light">
-          <header class="mb-5 text-blue-gradient font-semibold">Contatos</header>
+          <header class="text-xl font-semibold mb-5 text-blue-gradient">Contatos</header>
           <div class="flex items-center mb-2">
             <Icon name="bi-whatsapp"></Icon>&nbsp; (31) 9 7115-3669
           </div>

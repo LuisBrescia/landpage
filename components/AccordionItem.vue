@@ -1,6 +1,6 @@
 <template>
     <header
-        class="shadow bg-blue-gradient-accordion text-white p-3 rounded-sm teext-sm md:text-base font-medium cursor-pointer flex justify-between items-center"
+        class="bg-blue-gradient-accordion text-white p-3 rounded-sm teext-sm md:text-base font-medium cursor-pointer flex justify-between items-center"
         @click="accordionAberto = !accordionAberto">
         <span class="pe-5 flex-1">
             <slot name="accordionHeader" />
@@ -22,6 +22,10 @@ const accordionAberto = ref(false);
 </script>
 
 <style scoped>
+
+header {
+    box-shadow: 0 0 10px 1px #60a5fa;
+}
 .accordion-icon {
     transition: transform 0.5s ease;
 }

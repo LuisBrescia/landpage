@@ -1,14 +1,14 @@
 <template>
-    <button class="font-semibold py-3 px-5 rounded-sm text-white
-     bg-gray-900 hover:bg-gray-800 active:text-gray-300">
+    <button class="shadow font-semibold py-3 px-5 rounded-sm text-white
+     bg-gray-900 hover:bg-gray-800">
         <slot/>
     </button>
 </template>
 
 <style scoped>
 
-button {
-    transition: all 0.2s ease;
+button:active {
+    transform: translateY(1px);
 }
 
 </style>

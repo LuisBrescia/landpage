@@ -19,7 +19,7 @@
           </BtnDark>
         </NuxtLink>
         <BtnLight class="w-full mx-auto sm:w-1/2">
-          <Icon name="ic:round-play-arrow" size="1.4rem" class="text-sky-500"></Icon>
+          <Icon name="ic:round-play-arrow" size="1.4rem" class="text-blue-400"></Icon>
           Vídeo explicativo
         </BtnLight>
       </div>
@@ -43,7 +43,7 @@
   </section>
 
   <!-- * Solução -->
-  <section class="bg-white py-12 px-4">
+  <section class="py-12 px-4">
     <main class="container mx-auto">
       <h3 class="text-4xl font-bold text-center mb-12 tracking-tighter">
         Conheça nossas <span class="text-blue-gradient">soluções</span>
@@ -147,7 +147,7 @@
   </section>
 
   <!-- * Perguntas Frequentes -->
-  <section class="bg-white pb-6 pt-12 px-4">
+  <section class="pb-6 pt-12 px-4">
     <main class="container mx-auto">
 
       <header class="text-center mb-12 max-w-lg mx-auto">
@@ -207,7 +207,7 @@
   </section>
 
   <!-- * Contato -->
-  <section class="bg-white py-12 px-4" id="#contato">
+  <section class="py-12 px-4" id="#contato">
     <main class="container mx-auto text-gray-900">
 
       <header class="text-center mb-4 max-w-lg mx-auto">
@@ -221,29 +221,29 @@
         <div>
           <label class="font-semibold block text-sm mb-3">Nome</label>
           <input type="text"
-            class="bg-gray-50 border rounded-sm p-2 w-full focus:border-blue-500 focus:outline-blue-500 shadow-sm" />
+            class="bg-gray-50 border rounded-sm p-2 w-full focus:border-blue-400 focus:outline-blue-400 shadow-sm" />
         </div>
 
         <div>
           <label class="font-semibold block text-sm mb-3">E-mail</label>
           <input type="email"
-            class="bg-gray-50 border rounded-sm p-2 w-full focus:border-blue-500 focus:outline-blue-500 shadow-sm" />
+            class="bg-gray-50 border rounded-sm p-2 w-full focus:border-blue-400 focus:outline-blue-400 shadow-sm" />
         </div>
 
         <div>
           <label class="font-semibold block text-sm mb-3">Telefone</label>
           <input type="tel"
-            class="bg-gray-50 border rounded-sm p-2 w-full focus:border-blue-500 focus:outline-blue-500 shadow-sm" />
+            class="bg-gray-50 border rounded-sm p-2 w-full focus:border-blue-400 focus:outline-blue-400 shadow-sm" />
         </div>
 
         <div>
           <label class="font-semibold block text-sm mb-3">Mensagem</label>
           <textarea
-            class="max-h-32  bg-gray-50 border rounded-sm p-2 w-full focus:border-blue-500 focus:outline-blue-500 shadow-sm"></textarea>
+            class="max-h-32  bg-gray-50 border rounded-sm p-2 w-full focus:border-blue-400 focus:outline-blue-400 shadow-sm"></textarea>
         </div>
 
         <div class="text-center">
-          <BtnPrimary class="py-3 w-full rounded-sm">Enviar mensagem</BtnPrimary>
+          <BtnPrimary class="py-3 w-full rounded-sm" @click="preventDefault">Enviar mensagem</BtnPrimary>
         </div>
       </form>
 
@@ -271,3 +271,11 @@
     </main>
   </section>
 </template>
+
+<script setup>
+
+function preventDefault(event) {
+  event.preventDefault();
+}
+
+</script>
