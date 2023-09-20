@@ -1,16 +1,16 @@
 <template>
     <header
-        class="shadow bg-blue-gradient-accordion text-white p-3 rounded-lg text-lg font-medium cursor-pointer flex justify-between items-center"
+        class="shadow bg-blue-gradient-accordion text-white p-3 rounded-lg text-base md:text-lg font-medium cursor-pointer flex justify-between items-center"
         @click="accordionAberto = !accordionAberto">
-        <span class="pe-5 text-base flex-1">
+        <span class="pe-5 flex-1">
             <slot name="accordionHeader" />
         </span>
-        <Icon name="material-symbols:keyboard-arrow-down-rounded" size="1.8em" :class="{ 'rotate-180': accordionAberto }"
+        <Icon name="material-symbols:keyboard-arrow-down-rounded" size="1.5rem" :class="{ 'rotate-180': accordionAberto }"
             class="accordion-icon w-12" :data-expanded="accordionAberto" />
     </header>
 
     <div class="accordion-body mb-3 mt-2" :class="{ 'active': accordionAberto }">
-        <div class="p-3 border rounded-lg bg-gray-50 text-gray-800 shadow">
+        <div class="p-3 border rounded-lg bg-gray-50 text-gray-800 shadow font-light text-sm md:text-base">
             <slot name="accordionBody" />
         </div>
     </div>
@@ -37,8 +37,7 @@ const accordionAberto = ref(false);
 }
 
 .accordion-body.active {
-    height: 10rem;
-    transform: scale(1);
+    height: 8rem;
 }
 
 @media screen and (min-width: 576px) {
@@ -49,7 +48,7 @@ const accordionAberto = ref(false);
 
 @media screen and (min-width: 768px) {
     .accordion-body.active {
-        height: 5.5rem;
+        height: 6.2rem;
     }
 }
 </style>

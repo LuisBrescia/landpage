@@ -1,21 +1,21 @@
 <template>
   <!-- * Navbar -->
-  <nav class="flex justify-center p-3 sticky top-0 mt-5 z-50 bg-white" :class="{ 'shadow': isScrolled }">
+  <nav class="flex justify-center p-3 sticky top-0 z-40 bg-white" :class="{ 'shadow': isScrolled && !menuAberto }">
 
     <div class="container flex justify-between items-center">
-      
+
       <div class="flex-1 flex items-center gap-2 text-gray-900">
         <!-- <Icon name="lucide:door-open" size="2em" class="text-blue-500"></Icon> -->
-        <header class="font-semibold text-3xl py-2 rounded-lg bg-white">
+        <header class="font-semibold text-3xl py-2 rounded-lg bg-white ps-3 lg:ps-0">
           atende<span class="text-blue-gradient">aí</span>
         </header>
       </div>
 
       <div class="hidden lg:flex gap-3 font-light">
-        <a href="/" class="px-3 py-2 rounded-lg hover:bg-gray-100">Como funciona</a>
-        <a href="/" class="px-3 py-2 rounded-lg hover:bg-gray-100">Benefícios</a>
-        <a href="/" class="px-3 py-2 rounded-lg hover:bg-gray-100">Contato</a>
-        <a href="/" class="px-3 py-2 rounded-lg hover:bg-gray-100">Seja um parceiro</a>
+        <a href="#" class="px-3 py-2 rounded-lg hover:bg-gray-100">Como funciona</a>
+        <a href="#" class="px-3 py-2 rounded-lg hover:bg-gray-100">Benefícios</a>
+        <a href="#" class="px-3 py-2 rounded-lg hover:bg-gray-100">Contato</a>
+        <a href="#" class="px-3 py-2 rounded-lg hover:bg-gray-100">Seja um parceiro</a>
       </div>
 
       <div class="hidden lg:inline flex-1 text-end">
@@ -28,15 +28,30 @@
 
       <div class="inline lg:hidden">
         <button @click="menuAberto = !menuAberto">
-          <Icon :name="menuAberto ? 'majesticons:close' : 'majesticons:menu'" size="2.5em" id="botaoMenu"/>
+          <Icon :name="menuAberto ? 'majesticons:close' : 'majesticons:menu'" size="2.5em" id="botaoMenu" />
         </button>
       </div>
-
-      <!-- * Modal -->
-      <!-- <div class="fixed inset-0 bg-gray-900 bg-opacity-50 z-50" v-show="menuAberto" @click="menuAberto = false"></div> -->
-
     </div>
+
   </nav>
+
+  <div class="fixed inset-0 bg-gray-900 bg-opacity-50 z-30" v-show="menuAberto" @click="menuAberto = false"></div>
+
+  <div id="mobileMenuWrapper" :class="{ 'active': menuAberto }" class="fixed w-full z-50">
+    <div class="shadow">
+      <div class="flex lg:hidden font-light flex-col bg-white pb-3 px-3">
+        <a href="#" class="p-3 rounded-lg hover:bg-gray-100">Como funciona</a>
+        <a href="#" class="p-3 rounded-lg hover:bg-gray-100">Benefícios</a>
+        <a href="#" class="p-3 rounded-lg hover:bg-gray-100">Contato</a>
+        <a href="#" class="p-3 rounded-lg hover:bg-gray-100">Seja um parceiro</a>
+        <NuxtLink to="/register" class="mt-3">
+          <BtnPrimary class="text-sm py-3 rounded-lg w-full">
+            Área do parceiro
+          </BtnPrimary>
+        </NuxtLink>
+      </div>
+    </div>
+  </div>
 
   <slot />
 
@@ -103,21 +118,37 @@
   </button>
 </template>
 
+<style scoped>
+#mobileMenuWrapper {
+  height: 0;
+  overflow: hidden;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -ms-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  transition: height 0.5s ease;
+}
+
+#mobileMenuWrapper.active {
+  height: 18rem;
+}
+</style>
+
 <script setup>
 
-  const menuAberto = ref(false);
-  const isScrolled = ref(false);
+const menuAberto = ref(false);
+const isScrolled = ref(false);
 
-  onMounted(() => {
-    window.addEventListener('scroll', handleScroll);
-  });
+onMounted(() => {
+  window.addEventListener('scroll', handleScroll);
+});
 
-  onBeforeUnmount(() => {
-    window.removeEventListener('scroll', handleScroll);
-  });
+onBeforeUnmount(() => {
+  window.removeEventListener('scroll', handleScroll);
+});
 
-  const handleScroll = () => {
-    isScrolled.value = window.scrollY > 0;
-  }
+const handleScroll = () => {
+  isScrolled.value = window.scrollY > 0;
+}
 
 </script>

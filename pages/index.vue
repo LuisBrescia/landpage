@@ -3,7 +3,7 @@
   <section class="py-6 md:py-12 px-4 ">
     <main class="container mx-auto py-12">
 
-      <h3 class="text-5xl sm:text-7xl font-bold mb-12 max-w-3xl mx-auto text-center text-gray-900" style="letter-spacing: -0.075rem;">
+      <h3 class="text-4xl sm:text-7xl font-bold mb-12 max-w-3xl mx-auto text-center text-gray-900" style="letter-spacing: -0.075rem;">
         Tenha <span class="text-blue-gradient">controle</span> total de sua portaria!
       </h3>
 
@@ -124,12 +124,14 @@
 
         <div class="text-center md:text-start max-w-xl mb-10 mx-auto">
 
-          <h3 class="font-bold text-4xl mb-5 text-gray-900">
-            <span class="text-white">Ainda não tem o sistema instalado?</span>
+          <h3 class="font-bold text-3xl md:text-4xl mb-5 text-gray-900">
+            <span class="text-white">
+              Ainda não tem o sistema instalado?
+            </span>
             Não se preocupe!
           </h3>
 
-          <p class="text-xl mb-12">
+          <p class="text-lg md:text-xl mb-12">
             Contamos com a solução ideal para você, com equipamentos de primeira que garantem o acesso seja via tag,
             reconhecimento facial, e nosso app.
           </p>
@@ -146,12 +148,12 @@
 
   <!-- * Perguntas Frequentes -->
   <section class="bg-white pb-6 pt-12 px-4">
-    <main class="container mx-auto text-gray-900">
+    <main class="container mx-auto">
 
       <header class="text-center mb-12 max-w-lg mx-auto">
         <Icon name="material-symbols:help-center-rounded" class="mb-2 rounded-lg text-5xl"></Icon>
-        <h3 class="text-4xl font-bold mb-3 tracking-tight"><span class="text-blue-gradient">Perguntas</span> frequentes</h3>
-        <span class="text-lg mb-3">Se não encontrar o que procura aqui, fale conosco.</span>
+        <h3 class="text-3xl md:text-4xl font-bold mb-3 tracking-tight text-gray-900 whitespace-nowrap"><span class="text-blue-gradient">Perguntas</span> frequentes</h3>
+        <span class="text-base md:text-lg mb-3 font-light text-gray-800">Se não encontrar o que procura aqui, fale conosco.</span>
       </header>
 
       <div class="mx-auto max-w-6xl flex flex-col">
@@ -180,7 +182,7 @@
         <!-- * Pergunta 3 -->
         <AccordionItem>
           <template v-slot:accordionHeader>
-            Se estiver sem internet, irei receber a chamada do interfone ou portaria?
+            Receberei chamadas do interfone e portaria mesmo sem internet?
           </template>
           <template v-slot:accordionBody>
             Sim, nosso sistema identifica quando não há nenhum equipamento online realizando uma chamada
@@ -210,8 +212,8 @@
 
       <header class="text-center mb-4 max-w-lg mx-auto">
         <Icon name="ph:paper-plane-tilt-fill" class="mb-2 rounded-lg text-4xl"></Icon>
-        <h3 class="text-4xl font-bold mb-3 tracking-tight">Entre em <span class="text-blue-gradient">contato</span></h3>
-        <span class="text-lg mb-3 font-light">Sua mensagem será respondida assim que possível.</span>
+        <h3 class="text-3xl md:text-4xl font-bold mb-3 tracking-tight text-gray-900 whitespace-nowrap">Entre em <span class="text-blue-gradient">contato</span></h3>
+        <span class="text-base md:text-lg mb-3 font-light text-gray-800">Sua mensagem será respondida assim que possível.</span>
       </header>
 
       <form class="p-5 max-w-2xl mx-auto flex flex-col gap-8">
@@ -241,7 +243,7 @@
         </div>
 
         <div class="text-center">
-          <BtnPrimary class="py-3 w-full">Enviar mensagem</BtnPrimary>
+          <BtnPrimary class="py-3 w-full rounded-lg">Enviar mensagem</BtnPrimary>
         </div>
       </form>
 
