@@ -1,20 +1,28 @@
 <template>
+
+  <div class="bg-blue-gradient text-white py-2 text-center font-light mb-4 hidden lg:block" style="font-size: 0.925rem;">
+    Este site não possui vínculo algum com a empresa 
+    <NuxtLink to="https://atendeai.com.br" target="_blank" class="underline cursor-pointer">
+      Atendeaí
+    </NuxtLink>.
+  </div>
+
   <!-- * Navbar -->
   <nav class="flex justify-center p-3 sticky top-0 z-40 bg-white" :class="{ 'shadow': isScrolled && !menuAberto }">
 
-    <div class="container flex justify-between items-center">
+    <div class="w-full max-w-screen-xl flex justify-between items-center">
 
-      <div class="flex-1 flex items-center gap-2 text-gray-900">
-        <!-- <Icon name="lucide:door-open" size="2em" class="text-blue-500"></Icon> -->
-        <header class="font-semibold text-3xl py-2 rounded-lg bg-white ps-3 lg:ps-0">
-          atende<span class="text-blue-gradient">aí</span>
+      <div class="flex-1 flex items-center gap-2">
+        <!-- <Icon name="lucide:door-open" size="2.5em" class="text-blue-400"></Icon> -->
+        <header class="text-gray-900 font-semibold text-3xl md:text-4xl py-2 rounded-lg bg-white ms-2 tracking-tighter">
+          Atende<span class="text-blue-gradient">aí</span>
         </header>
       </div>
 
       <div class="hidden lg:flex gap-3 font-light">
         <a href="#" class="px-3 py-2 rounded-lg hover:bg-gray-100">Como funciona</a>
         <a href="#" class="px-3 py-2 rounded-lg hover:bg-gray-100">Benefícios</a>
-        <a href="#" class="px-3 py-2 rounded-lg hover:bg-gray-100">Contato</a>
+        <a href="#contato" class="px-3 py-2 rounded-lg hover:bg-gray-100">Contato</a>
         <a href="#" class="px-3 py-2 rounded-lg hover:bg-gray-100">Seja um parceiro</a>
       </div>
 
@@ -35,11 +43,11 @@
 
   </nav>
 
-  <div class="fixed inset-0 bg-gray-900 bg-opacity-50 z-30" v-show="menuAberto" @click="menuAberto = false"></div>
+  <div id="blend" class="block lg:hidden fixed inset-0 bg-gray-900 bg-opacity-50 z-30" v-show="menuAberto" @click="menuAberto = false"></div>
 
   <div id="mobileMenuWrapper" :class="{ 'active': menuAberto }" class="fixed w-full z-50">
-    <div class="shadow">
-      <div class="flex lg:hidden font-light flex-col bg-white pb-3 px-3">
+    <div class="shadow bg-white">
+      <div class="max-w-screen-xl mx-auto flex lg:hidden font-light flex-col pb-3 px-3">
         <a href="#" class="p-3 rounded-lg hover:bg-gray-100">Como funciona</a>
         <a href="#" class="p-3 rounded-lg hover:bg-gray-100">Benefícios</a>
         <a href="#" class="p-3 rounded-lg hover:bg-gray-100">Contato</a>
@@ -112,10 +120,10 @@
     </main>
   </section>
 
-  <button id="chatBot"
+  <!-- <button id="chatBot"
     class="fixed bottom-5 right-5 bg-white shadow-lg border rounded-full p-3 font-medium border-gray-200 hover:border-gray-300 text-gray-900 hover:text-gray-800">
     <Icon name="majesticons:chat-2-text-line" size="2rem" />
-  </button>
+  </button> -->
 </template>
 
 <style scoped>
@@ -131,6 +139,10 @@
 
 #mobileMenuWrapper.active {
   height: 18rem;
+}
+
+#blend {
+  transition: all 0.5s ease;
 }
 </style>
 

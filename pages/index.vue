@@ -3,22 +3,22 @@
   <section class="py-6 md:py-12 px-4 ">
     <main class="container mx-auto py-12">
 
-      <h3 class="text-4xl sm:text-7xl font-bold mb-12 max-w-3xl mx-auto text-center text-gray-900" style="letter-spacing: -0.075rem;">
+      <h3 class="text-5xl sm:text-6xl md:text-7xl font-bold mb-12 max-w-3xl mx-auto text-center text-gray-900" style="letter-spacing: -0.075rem;">
         Tenha <span class="text-blue-gradient">controle</span> total de sua portaria!
       </h3>
 
-      <p class="sm:text-lg leading-7 mb-12 max-w-2xl mx-auto text-center font-light text-gray-800">
+      <p class="text-base sm:text-lg leading-7 mb-12 max-w-2xl mx-auto text-center font-extralight text-gray-800">
         Com nosso aplicativo da AtendeAí integrado ao seu sistema de portaria, você poderá
         controlar acessos de sua portaria, de onde estiver e de forma totalmente autônoma.
       </p>
 
-      <div class="flex max-w-2xl mx-auto gap-5 flex-wrap sm:flex-nowrap items-center">
+      <div class="flex max-w-md mx-auto gap-5 flex-wrap sm:flex-nowrap items-center">
         <NuxtLink to="/register" class="mx-auto w-full sm:w-1/2">
-          <BtnDark class="rounded-lg w-full">
+          <BtnDark class="w-full">
             Teste Grátis
           </BtnDark>
         </NuxtLink>
-        <BtnLight class="rounded-lg w-full mx-auto sm:w-1/2">
+        <BtnLight class="w-full mx-auto sm:w-1/2">
           <Icon name="ic:round-play-arrow" size="1.4rem" class="text-sky-500"></Icon>
           Vídeo explicativo
         </BtnLight>
@@ -31,14 +31,14 @@
   <section class="bg-blue-gradient py-12 my-5 px-4">
     <main class="container mx-auto text-center max-w-3xl">
 
-      <Icon name="fluent:target-arrow-20-regular" class="text-white rounded-lg border-2 shadow" size="4em"></Icon>
+      <Icon name="fluent:target-arrow-20-regular" class="text-white rounded-sm border-2 shadow" size="4em"></Icon>
 
       <h3 class="text-xl md:text-3xl text-white mt-8 mb-12 font-medium tracking-tight">
         Nossa missão é desenvolver e fornecer <span class="underline">soluções tecnológicas</span>
         que garantam a segurança das pessoas e <span class="underline">simplifiquem suas vidas.</span>
       </h3>
 
-      <BtnDark class="text-sm border-0">Saiba mais</BtnDark>
+      <BtnDark class="border-0">Saiba mais</BtnDark>
     </main>
   </section>
 
@@ -52,14 +52,14 @@
       <div class="mb-12 flex justify-center gap-10 flex-col md:flex-row items-center">
 
         <div class="max-w-lg mb-4 md:mb-0">
-          <img src="~/assets/img/solution1.jpg" class="h-72 w-full rounded-lg mb-4 object-cover" />
+          <img src="~/assets/img/solution1.jpg" class="h-72 w-full rounded-sm mb-4 object-cover" />
           <h3 class="font-semibold text-2xl mb-3">Portaria Autônoma</h3>
           <p class="text-lg font-light">Oferecemos aos nossos clientes autonomia no controle e acesso do seu condomínio
           </p>
         </div>
 
         <div class="max-w-lg">
-          <img src="~/assets/img/solution2.jpg" class="h-72 w-full rounded-lg mb-4 object-cover" />
+          <img src="~/assets/img/solution2.jpg" class="h-72 w-full rounded-sm mb-4 object-cover" />
           <h3 class="font-semibold text-2xl mb-3">App já disponível</h3>
           <p class="text-lg font-light">Oferecemos aos nossos clientes autonomia no controle e acesso do seu condomínio
           </p>
@@ -85,7 +85,7 @@
 
         <!-- > Transformar em componentes -->
         <div class="text-start">
-          <img src="~/assets/img/blog1.jpg" class="h-72 w-full rounded-lg mb-4 object-cover" />
+          <img src="~/assets/img/blog1.jpg" class="h-72 w-full rounded-sm mb-4 object-cover" />
           <h3 class="text-white text-2xl mb-4 font-bold">Qual é o melhor tipo de portaria para meu condomínio?</h3>
           <p>
             A escolha do serviço de portaria é sempre um ponto de atenção para os condomínios. Escolhas erradas podem
@@ -94,7 +94,7 @@
         </div>
 
         <div class="text-start">
-          <img src="~/assets/img/blog2.jpg" class="h-72 w-full rounded-lg mb-4 object-cover" />
+          <img src="~/assets/img/blog2.jpg" class="h-72 w-full rounded-sm mb-4 object-cover" />
           <h3 class="text-white text-2xl mb-4 font-bold">Portaria autônoma: Economia inteligente e eficiente</h3>
           <p>
             A substituição dos porteiros pelo serviço de portaria remota tem sido prática comum nos condomínios do Brasil.
@@ -103,7 +103,7 @@
 
 
         <div class="text-start">
-          <img src="~/assets/img/blog3.jpg" class="h-72 w-full rounded-lg mb-4 object-cover" />
+          <img src="~/assets/img/blog3.jpg" class="h-72 w-full rounded-sm mb-4 object-cover" />
           <h3 class="text-white text-2xl mb-4 font-bold">5 dicas para melhorar a segurança do seu condomínio</h3>
           <p>
             A segurança do condomínio e seus moradores é uma preocupação constante de síndicos e gestores. Afinal, em
@@ -151,7 +151,7 @@
     <main class="container mx-auto">
 
       <header class="text-center mb-12 max-w-lg mx-auto">
-        <Icon name="material-symbols:help-center-rounded" class="mb-2 rounded-lg text-5xl"></Icon>
+        <Icon name="material-symbols:help-center-rounded" class="mb-2 rounded-sm text-5xl"></Icon>
         <h3 class="text-3xl md:text-4xl font-bold mb-3 tracking-tight text-gray-900 whitespace-nowrap"><span class="text-blue-gradient">Perguntas</span> frequentes</h3>
         <span class="text-base md:text-lg mb-3 font-light text-gray-800">Se não encontrar o que procura aqui, fale conosco.</span>
       </header>
@@ -207,11 +207,11 @@
   </section>
 
   <!-- * Contato -->
-  <section class="bg-white py-12 px-4">
+  <section class="bg-white py-12 px-4" id="#contato">
     <main class="container mx-auto text-gray-900">
 
       <header class="text-center mb-4 max-w-lg mx-auto">
-        <Icon name="ph:paper-plane-tilt-fill" class="mb-2 rounded-lg text-4xl"></Icon>
+        <Icon name="ph:paper-plane-tilt-fill" class="mb-2 rounded-sm text-4xl"></Icon>
         <h3 class="text-3xl md:text-4xl font-bold mb-3 tracking-tight text-gray-900 whitespace-nowrap">Entre em <span class="text-blue-gradient">contato</span></h3>
         <span class="text-base md:text-lg mb-3 font-light text-gray-800">Sua mensagem será respondida assim que possível.</span>
       </header>
@@ -221,29 +221,29 @@
         <div>
           <label class="font-semibold block text-sm mb-3">Nome</label>
           <input type="text"
-            class="bg-gray-50 border rounded-lg p-2 w-full focus:border-blue-500 focus:outline-blue-500 shadow-sm" />
+            class="bg-gray-50 border rounded-sm p-2 w-full focus:border-blue-500 focus:outline-blue-500 shadow-sm" />
         </div>
 
         <div>
           <label class="font-semibold block text-sm mb-3">E-mail</label>
           <input type="email"
-            class="bg-gray-50 border rounded-lg p-2 w-full focus:border-blue-500 focus:outline-blue-500 shadow-sm" />
+            class="bg-gray-50 border rounded-sm p-2 w-full focus:border-blue-500 focus:outline-blue-500 shadow-sm" />
         </div>
 
         <div>
           <label class="font-semibold block text-sm mb-3">Telefone</label>
           <input type="tel"
-            class="bg-gray-50 border rounded-lg p-2 w-full focus:border-blue-500 focus:outline-blue-500 shadow-sm" />
+            class="bg-gray-50 border rounded-sm p-2 w-full focus:border-blue-500 focus:outline-blue-500 shadow-sm" />
         </div>
 
         <div>
           <label class="font-semibold block text-sm mb-3">Mensagem</label>
           <textarea
-            class="max-h-32  bg-gray-50 border rounded-lg p-2 w-full focus:border-blue-500 focus:outline-blue-500 shadow-sm"></textarea>
+            class="max-h-32  bg-gray-50 border rounded-sm p-2 w-full focus:border-blue-500 focus:outline-blue-500 shadow-sm"></textarea>
         </div>
 
         <div class="text-center">
-          <BtnPrimary class="py-3 w-full rounded-lg">Enviar mensagem</BtnPrimary>
+          <BtnPrimary class="py-3 w-full rounded-sm">Enviar mensagem</BtnPrimary>
         </div>
       </form>
 
