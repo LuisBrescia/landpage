@@ -38,7 +38,7 @@
         que garantam a segurança das pessoas e <span class="underline">simplifiquem suas vidas.</span>
       </h3>
 
-      <BtnDark class="border-0">Saiba mais</BtnDark>
+      <BtnDark>Saiba mais</BtnDark>
     </main>
   </section>
 
