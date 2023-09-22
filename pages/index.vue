@@ -1,6 +1,6 @@
 <template>
   <!-- * Header -->
-  <section class="py-6 md:py-12 px-4">
+  <section class="pt-12 px-4">
     <main class="container mx-auto py-12">
 
       <h3 class="text-5xl sm:text-6xl md:text-7xl font-bold mb-12 max-w-3xl mx-auto text-center text-gray-900"
@@ -32,15 +32,15 @@
   <section class="py-12 mb-12">
 
     <!-- * Colaboradores -->
-    <div class="hidden md:flex justify-center gap-20 items-center" style="transform: scale(0.525);">
-        <img src="/img/the-new-york-times.png"/>
-        <img src="/img/st-jude.png"/>
-        <img src="/img/twitch.png"/>
-        <img src="/img/bankrate.png"/>
-        <img src="/img/warner-bros.png"/>
-        <img src="/img/disney.png"/>
-        <img src="/img/wwe.png"/>
-        <img src="/img/about-you.png"/>
+    <div class="hidden md:flex justify-center items-center mt-12" style="transform: scale(0.525);">
+        <img class="mx-16 " src="/img/the-new-york-times.png"/>
+        <img class="scale-125 mx-28" src="/img/st-jude.png"/>
+        <img class="mx-16 " src="/img/twitch.png"/>
+        <img class="mx-16 " src="/img/bankrate.png"/>
+        <img class="mx-16 " src="/img/warner-bros.png"/>
+        <img class="mx-16 " src="/img/disney.png"/>
+        <img class="mx-16 " src="/img/wwe.png"/>
+        <img class="mx-16 " src="/img/about-you.png"/>
     </div>
   </section>
 
