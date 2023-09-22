@@ -1,6 +1,6 @@
 <template>
   <!-- * Header -->
-  <section class="py-6 md:py-12 px-4 ">
+  <section class="py-6 md:py-12 px-4">
     <main class="container mx-auto py-12">
 
       <h3 class="text-5xl sm:text-6xl md:text-7xl font-bold mb-12 max-w-3xl mx-auto text-center text-gray-900"
@@ -28,44 +28,71 @@
     </main>
   </section>
 
-  <section class="pb-12 pt-16 flex flex-col lg:flex-row">
+  <!-- * Colaboradores -->
+  <section class="py-12 mb-12">
 
-    <main class="container mx-auto flex flex-col md:flex-row">
+    <!-- * Colaboradores -->
+    <div class="hidden md:flex justify-center gap-20 items-center" style="transform: scale(0.525);">
+        <img src="/img/the-new-york-times.png"/>
+        <img src="/img/st-jude.png"/>
+        <img src="/img/twitch.png"/>
+        <img src="/img/bankrate.png"/>
+        <img src="/img/warner-bros.png"/>
+        <img src="/img/disney.png"/>
+        <img src="/img/wwe.png"/>
+        <img src="/img/about-you.png"/>
+    </div>
+  </section>
 
+  <section class="pb-12 pt-16">
+    <main class="container mx-auto">
 
-      <CardHowTo filename="~/assets/img/passos-1.jpg" numero="1">
-        <template v-slot:numero>1</template> 
-        <template v-slot:conteudo>
-          Um visitante chega ao seu condomínio e disca para seu apartamento.
-        </template>      
-      </CardHowTo>
+      <!-- <header class="text-center mb-5">
+        <h3 class="text-5xl font-bold tracking-tight mb-5 text-gray-900">
+          Rápido de instalar, fácil de usar!
+        </h3>
+        <p class="mx-auto font-extralight text-lg text-gray-800 max-w-2xl">
+          Com o aplicativo da atendeaí integrado ao seu sistema de portaria,
+          você poderá controlar os acessos de sua portaria, de onde estiver e de forma totalmente autônoma.
+        </p>
+      </header> -->
 
-      <CardHowTo filename="~/assets/img/passos-2.jpg" numero="2">
-        <template v-slot:numero>2</template> 
-        <template v-slot:conteudo>
-          Seu Smartphone toca junto com o interfone.
-        </template>      
-      </CardHowTo>
+      <div class="flex flex-col lg:flex-row">
 
+        <div class="flex flex-1">
+          <CardHowTo class="flex-1" filename="passos-1" numero="1">
+            <template v-slot:numero>1</template>
+            <template v-slot:conteudo>
+              Um visitante chega ao seu condomínio e disca para seu apartamento.
+            </template>
+          </CardHowTo>
+
+          <CardHowTo class="flex-1" filename="passos-2" numero="2">
+            <template v-slot:numero>2</template>
+            <template v-slot:conteudo>
+              Seu Smartphone toca junto com o interfone.
+            </template>
+          </CardHowTo>
+        </div>
+
+        <div class="flex flex-1">
+          <CardHowTo class="flex-1" filename="passos-3" numero="3">
+            <template v-slot:conteudo>
+              Você identifica e atende o visitante via app atendeaí.
+            </template>
+          </CardHowTo>
+
+          <CardHowTo class="flex-1" filename="passos-4" numero="4">
+            <template v-slot:numero>4</template>
+            <template v-slot:conteudo>
+              Abra a porta de onde estiver, com apenas um clique.
+            </template>
+          </CardHowTo>
+        </div>
+
+      </div>
     </main>
 
-    <main class="container mx-auto flex flex-col md:flex-row">
-
-      <CardHowTo filename="~/assets/img/passos-3.jpg" numero="3">
-        <template v-slot:conteudo>
-          Você identifica e atende o visitante via app atendeaí.
-        </template>      
-      </CardHowTo>
-
-
-      <CardHowTo filename="~/assets/img/passos-4.jpg" numero="4">
-        <template v-slot:numero>4</template> 
-        <template v-slot:conteudo>
-          Abra a porta de onde estiver, com apenas um clique.
-        </template>      
-      </CardHowTo>
-
-    </main>
   </section>
 
   <!-- * Objetivo -->
