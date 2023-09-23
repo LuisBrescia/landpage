@@ -44,7 +44,7 @@
     </div>
   </section>
 
-  <section class="pb-12 pt-16">
+  <section class="pb-12 pt-16" id="comoFunciona">
     <main class="container mx-auto">
 
       <!-- <header class="text-center mb-5">
@@ -112,7 +112,7 @@
   </section>
 
   <!-- * Solução -->
-  <section class="py-12 px-4">
+  <section class="py-12 px-4" id="beneficios">
     <main class="container mx-auto">
       <h3 class="text-4xl font-bold text-center mb-12 tracking-tighter">
         Conheça nossas <span class="text-blue-gradient">soluções</span>
@@ -187,7 +187,7 @@
   </section>
 
   <!-- * Fale já com nossa equipe -->
-  <section class="bg-blue-gradient py-12 px-4">
+  <section class="bg-blue-gradient py-12 px-4" id="sejaUmParceiro">
     <main class="container text-center text-white mx-auto">
 
       <div class="grid grid-cols-1 md:grid-cols-2 items-center gap-10">
@@ -279,9 +279,8 @@
   </section>
 
   <!-- * Contato -->
-  <section class="py-12 px-4" id="#contato">
+  <section class="py-12 px-4" id="contato">
     <main class="container mx-auto text-gray-900">
-
       <header class="text-center mb-4 max-w-lg mx-auto">
         <Icon name="ph:paper-plane-tilt-fill" class="mb-2 rounded-sm text-4xl"></Icon>
         <h3 class="text-3xl md:text-4xl font-bold mb-3 tracking-tight text-gray-900 whitespace-nowrap">Entre em <span
@@ -317,7 +316,7 @@
         </div>
 
         <div class="text-center">
-          <BtnPrimary class="w-full" @click="preventDefault">Enviar mensagem</BtnPrimary>
+          <BtnPrimary class="w-full" @click.prevent>Enviar mensagem</BtnPrimary>
         </div>
       </form>
 
@@ -345,11 +344,3 @@
     </main>
   </section>
 </template>
-
-<script setup>
-
-function preventDefault(event) {
-  event.preventDefault();
-}
-
-</script>

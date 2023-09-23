@@ -7,7 +7,8 @@
   </div>
 
   <!-- * Navbar -->
-  <nav class="flex justify-center px-3 lg:py-2 sticky top-0 z-40 bg-white" :class="{ 'shadow': isScrolled && !menuAberto }">
+  <nav class="flex justify-center px-3 lg:py-2 sticky top-0 z-40 bg-white"
+    :class="{ 'shadow': isScrolled && !menuAberto }">
 
     <div class="w-full max-w-screen-xl flex justify-between items-center">
 
@@ -19,10 +20,10 @@
       </div>
 
       <div class="hidden lg:flex gap-3 font-light">
-        <a href="#" class="px-3 py-2 rounded-lg hover:bg-gray-100">Como funciona</a>
-        <a href="#" class="px-3 py-2 rounded-lg hover:bg-gray-100">Benefícios</a>
+        <a href="#comoFunciona" class="px-3 py-2 rounded-lg hover:bg-gray-100">Como funciona</a>
+        <a href="#beneficios" class="px-3 py-2 rounded-lg hover:bg-gray-100">Benefícios</a>
+        <a href="#sejaUmParceiro" class="px-3 py-2 rounded-lg hover:bg-gray-100">Seja um parceiro</a>
         <a href="#contato" class="px-3 py-2 rounded-lg hover:bg-gray-100">Contato</a>
-        <a href="#" class="px-3 py-2 rounded-lg hover:bg-gray-100">Seja um parceiro</a>
       </div>
 
       <div class="hidden lg:inline flex-1 text-end">
